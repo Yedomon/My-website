@@ -1,7 +1,7 @@
 name: "My website"
-title: "My Website"
+title: "My first blog"
 description: |
-  My Website
+  My first blog
 output_dir: "_site"
 navbar:
   right:

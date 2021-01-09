@@ -2,20 +2,19 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "About this blog",
+      "description": "Some additional details about the blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
       "last_modified": "2021-01-10T00:43:55+09:00"
     },
     {
       "path": "index.html",
-      "title": "My Website",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "My first blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-10T00:43:55+09:00"
+      "last_modified": "2021-01-10T01:11:28+09:00"
     }
   ],
-  "collections": []
+  "collections": ["posts/posts.json"]
 }

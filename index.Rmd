@@ -4,10 +4,3 @@ site: distill::distill_website
 listing: posts
 ---
 
-
-```{r}
-
-library(ggplot2)
-
-
-```

@@ -6,14 +6,42 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-10T00:43:55+09:00"
+      "last_modified": "2021-01-10T02:30:41+09:00"
+    },
+    {
+      "path": "article.html",
+      "title": "An artile",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "Nora Jones",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-10T02:30:41+09:00"
     },
     {
       "path": "index.html",
       "title": "My first blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-10T01:14:53+09:00"
+      "last_modified": "2021-01-10T02:30:42+09:00"
+    },
+    {
+      "path": "Introduction.html",
+      "title": "Intro",
+      "description": "Introduction\n",
+      "author": [
+        {
+          "name": "Yedomon Ange Bovys Zoclanclounon",
+          "url": "https://yedomon.netlify.app/"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-10T02:30:43+09:00"
     }
   ],
   "collections": ["posts/posts.json"]

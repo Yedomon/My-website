@@ -13,6 +13,13 @@ output:
   distill::distill_article:
     toc: true
     theme: theme.css
+    name: "line-plot-color-gradient-ggplot2"
+base_url: https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/
+collections:
+  posts:
+    disqus: line-plot-color-gradient-ggplot2
+    share: [twitter, linkedin]
+          
 ---
 
 

@@ -10,13 +10,4 @@ navbar:
     - text: "About"
       href: about.html
 output: distill::distill_article
-name: "line-plot-color-gradient-ggplot2"
-title: "Line graph with a color gradient using ggplot2"
-description: |
-  This tutorial provides a way to plot a line graph with ggplot2 with a color gradient
-base_url: https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/
-collections:
-  posts:
-    disqus: line-plot-color-gradient-ggplot2
-    share: [twitter, linkedin]
-          
+

@@ -11,5 +11,5 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Contact
 
-Feel free to contact me on [twitter](https://twitter.com/AngeBovys27), [LinkedIn](https://www.linkedin.com/in/yedomon-ange-bovys-zoclanclounon-660a1755/) or [e-mail](angez9914@gmail.com).
+Feel free to contact me on [twitter](https://twitter.com/AngeBovys27), [LinkedIn](https://www.linkedin.com/in/yedomon-ange-bovys-zoclanclounon-660a1755/) or via [e-mail](mailto:angez9914@gmail.com).
 

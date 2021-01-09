@@ -15,10 +15,7 @@ output:
     theme: theme.css
     name: "line-plot-color-gradient-ggplot2"
 base_url: https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/
-preview: images/pic1.png
-twitter:
-  site: "@rstudio"
-  creator: "@AngeBovys27"
+creative_commons: CC BY
 ---
 
 

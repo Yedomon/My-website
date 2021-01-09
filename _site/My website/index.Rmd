@@ -1,5 +1,5 @@
 ---
-title: "A blog"
+title: "Yedomon Ange Bovys Zoclanclounon"
 site: distill::distill_website
 listing: posts
 ---

@@ -6,7 +6,7 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-10T02:30:41+09:00"
+      "last_modified": "2021-01-10T03:25:14+09:00"
     },
     {
       "path": "article.html",
@@ -20,14 +20,14 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-10T02:30:41+09:00"
+      "last_modified": "2021-01-10T03:25:14+09:00"
     },
     {
       "path": "index.html",
       "title": "Yedomon Ange Bovys Zoclanclounon's Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-10T02:43:08+09:00"
+      "last_modified": "2021-01-10T03:25:15+09:00"
     },
     {
       "path": "Introduction.html",
@@ -41,7 +41,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-10T02:30:43+09:00"
+      "last_modified": "2021-01-10T03:25:15+09:00"
     }
   ],
   "collections": ["posts/posts.json"]

@@ -29,12 +29,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-<p style="font-family: times, serif; font-size:11pt; font-style:italic">
-The purpose here is to plot a line graph that shows the nucleotide diversity (Pi) alongside a chloroplast genome. More specifically, we want to emphasis using a gradient color a certain value up to a threshold (here *0.015*).
+
+The purpose here is to plot a line graph that shows the nucleotide diversity (Pi) alongside a chloroplast genome. More specifically, we want to emphasis using a gradient color a certain value up to a threshold (here **0.015**).
 
 Let's get into it!
 
-</p>
+
 
 ### Package loading
 

@@ -1,14 +1,22 @@
 ---
-title: "Extract fasta sequence from a multiple fasta file"
+title: "Extract sequence from a multiple-fasta file and return each sequence with the corresponding name"
 description: |
   This post is about how to extract from a multiple fasta file each sequence with the corresponding header
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/
+    affiliation: Jeonbuk National University
+    affiliation_url: http://www.jbnu.ac.kr/eng/
+    orcid_id: 0000-0003-2781-0778
 date: 01-10-2021
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    theme: theme.css
+    name: "Extract sequence from a multiple-fasta file"
+base_url: https://yedomon.netlify.app/posts/2021-01-10-extract-fasta-sequence-from-a-multiple-fasta-file/
+creative_commons: CC BY
 ---
 
 
@@ -19,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 When working with the multiple-sequences fasta files, I need to split the file and use each of them for multiple sequence alignment purposes. Therefore, the following `awk` based script is very helpful to complete this task.
 
 
-```
+```bash
 
 cat your_file.fasta | awk '{
         if (substr($0, 1, 1)==">") {filename=(substr($0,2) ".fasta")}

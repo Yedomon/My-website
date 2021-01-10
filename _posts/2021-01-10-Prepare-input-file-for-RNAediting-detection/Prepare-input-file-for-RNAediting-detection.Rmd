@@ -1,0 +1,58 @@
+---
+title: "Prepare input file for RNA editing detection"
+description: |
+  This post deals with the formating of input file for RNA editing sites detection
+author:
+  - name: Yedomon Ange Bovys Zoclanclounon
+    url: https://yedomon.netlify.app/
+date: 01-10-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+I recently worked on the identification of RNA editing sites from chloroplast sequences. Since I have multiple genes, I need to use a batch style in order to detect RNA editing sites in one-time-way.
+The help page explains how o prepare the file for batch submission.
+
+> The input file for batch mode is a tab-delimited text file that contains the following five parameters separated by a tab, with each sequence to be tested on a separate line:A sequence name (must be unique and less than 30 characters).The gene name (must be identical to one of the gene names listed in single-sequence mode.)The codon position of the first nucleotide (must be 1, 2, or 3).The cutoff value (must be between 0 and 1).The DNA sequence (must be IUPAC symbols only and less than 10 kb in length).
+
+How I deal with this? 
+
+Here is one example for accD gene
+
+
+```bash
+
+cat gene_accD | awk 'NR==2{print "species_name"}2' \  #returns the species name
+              | awk 'NR==3{print "accD"}3' \          #returns the gene name in accordance with PREP sUITE nomenclature
+              | awk 'NR==4{print "1"}4' \             # returns the codon position of the first nucleotide
+              | awk 'NR==5{print "0.8"}5'\            # returns the cutoff value
+              | awk '{if (NR!=1) {print}}'| awk -F'\n' '{$1=$1} 1' RS='\n\n' OFS='\t' > accD.rna.ready # create a tab-delimited text file 
+                                                                                                       # that contains the five parameters separated by a tab
+
+```
+
+
+The expected output looks like this:
+
+
+
+```bash
+
+species_name       accD    1       0.8     ATGGAAAGATGGTGGTTTAATTCGATGGTGTTTAAGAAGGAGTTAGAACGCAGGTATGGGATAAAGAAATCAACGG
+
+```
+
+I used the same for the remaining genes and concatenated all results into one **.txt** file as input for [**PREP Suite tool**](http://prep.unl.edu/).
+
+
+
+Note: A total of 35 genes are supported by PREP Suite including: accD,atpA,atpB,atpF,atpI,ccsA,clpP,matK,ndhA,ndhB,ndhD,ndhF,ndhG,petB,petD,petG,petL,psaB,psaI,psbB,psbE,psbF,
+psbL,rpl20,rpl23,rpl2,rpoA,rpoB,rpoC1,rpoC2,rps14,rps16,rps2,rps8, and ycf3 genes.

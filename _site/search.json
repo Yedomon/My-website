@@ -5,7 +5,7 @@
       "title": "Yedomon Ange Bovys Zoclanclounon",
       "author": [],
       "contents": "",
-      "last_modified": "2021-01-11T04:44:38+09:00"
+      "last_modified": "2021-01-11T04:48:57+09:00"
     },
     {
       "path": "article.html",
@@ -19,21 +19,21 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-11T04:44:39+09:00"
+      "last_modified": "2021-01-11T04:48:57+09:00"
     },
     {
       "path": "index.html",
       "title": "",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-11T04:44:39+09:00"
+      "last_modified": "2021-01-11T04:48:58+09:00"
     },
     {
       "path": "Linux.html",
       "title": "Linux",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-11T04:44:40+09:00"
+      "last_modified": "2021-01-11T04:48:59+09:00"
     },
     {
       "path": "Publications.html",
@@ -41,14 +41,14 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n2019 | Current Status of Pearl Millet Downy Mildew Prevalence across Agroecological Zones of Senegal.\r\n2018 | Evidence of pathogenic variation in Sclerospora graminicola populations from pearl millet growing regions in Senegal\r\n2018 | Identification of Sources of Resistance for Peanut Aspergillus flavus Colonization and Aflatoxin Contamination\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-11T04:44:41+09:00"
+      "last_modified": "2021-01-11T04:48:59+09:00"
     },
     {
       "path": "R.html",
       "title": "R",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-11T04:44:41+09:00"
+      "last_modified": "2021-01-11T04:49:00+09:00"
     }
   ],
   "collections": ["posts/posts.json"]

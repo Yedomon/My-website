@@ -8,7 +8,7 @@ base_url: https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-
 google_analytics: "UA-77306155-2"
 navbar:
   right:
-    - text: "Blog"
+    - text: "Home"
       href: index.html
     - text: "Linux"
       href: Linux.html

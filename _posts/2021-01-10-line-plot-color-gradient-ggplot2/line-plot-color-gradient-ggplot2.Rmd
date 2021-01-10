@@ -71,7 +71,7 @@ ggplot(data_pi, aes(x=Position, y=Pi, colour = Pi)) +
   
   geom_line() +
   
-  scale_colour_gradient2(low = "#0000b3", mid = "#3333ff" , high = "#ff0000", midpoint=0.013) +
+  scale_colour_gradient2(low = "#0000b3", mid = "#3333ff" , high = "#ff0000", midpoint=0.015) +
   
   geom_hline(yintercept=0.015, color="#00b300", size=.4, linetype = "dotted") +
   

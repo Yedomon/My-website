@@ -2061,6 +2061,14 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#cited-literature">Cited literature</a></li>
+</ul>
+</nav>
+</div>
 <p>I recently worked on the identification of RNA editing sites from chloroplast sequences. Since I have multiple genes, I need to use a batch style in order to detect RNA editing sites in one-time-way. The help page explains how o prepare the file for batch submission.</p>
 <blockquote>
 <p>The input file for batch mode is a tab-delimited text file that contains the following five parameters separated by a tab, with each sequence to be tested on a separate line:A sequence name (must be unique and less than 30 characters).The gene name (must be identical to one of the gene names listed in single-sequence mode.)The codon position of the first nucleotide (must be 1, 2, or 3).The cutoff value (must be between 0 and 1).The DNA sequence (must be IUPAC symbols only and less than 10 kb in length).</p>
@@ -2077,10 +2085,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>The expected output looks like this:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a></span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="ex">species_name</span>       accD    1       0.8     ATGGAAAGATGGTGGTTTAATTCGATGGTGTTTAAGAAGGAGTTAGAACGCAGGTATGGGATAAAGAAATCAACGG</span></code></pre></div>
-<p>I used the same for the remaining genes and concatenated all results into one <strong>.txt</strong> file as input for <a href="http://prep.unl.edu/"><strong>PREP Suite tool</strong></a>.</p>
+<p>I used the same for the remaining genes and concatenated all results into one <strong>.txt</strong> file as input for <a href="http://prep.unl.edu/"><strong>PREP Suite tool</strong></a><sup><a href="#alchemy-docs-1">[1]</a></sup>.</p>
 <p>Note: A total of 35 genes are supported by PREP Suite including: accD,atpA,atpB,atpF,atpI,ccsA,clpP,matK,ndhA,ndhB,ndhD,ndhF,ndhG,petB,petD,petG,petL,psaB,psaI,psbB,psbE,psbF, psbL,rpl20,rpl23,rpl2,rpoA,rpoB,rpoC1,rpoC2,rps14,rps16,rps2,rps8, and ycf3 genes.</p>
-<p>Reference:</p>
-<p>Mower J.P., 2009. The PREP suite: predictive RNA editors for plant mitochondrial genes, chloroplast genes and user-defined alignments. <a href="https://doi.org/10.1093/nar/gkp337">DOI</a></p>
+<h3 id="cited-literature">Cited literature</h3>
+<p><a name="sqlalchemy-docs-1">[1]</a>:Mower J.P., 2009. The PREP suite: predictive RNA editors for plant mitochondrial genes, chloroplast genes and user-defined alignments. <a href="https://doi.org/10.1093/nar/gkp337">DOI</a></p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

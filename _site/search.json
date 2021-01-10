@@ -6,7 +6,7 @@
       "description": "I am from Benin, a western African country. I have got a Master of Science degree in plant pathology and crop protection from the University of Cheikh Anta Diop of Dakar. I am currently doing a Ph.D. at Jeonbuk National University in the Republic of South Korea. My previous work focused on the identification of promising pearl millet genotypes that harbour resistance against downy mildew [Sclerospora graminicola (Sacc.) J. Schröt., (1886)]. Now I am working in plant genomics domain with a focus on high-quality genome construction of both wild and cultivated sesame. My work is highly dominated by bioinformatics. I love playing with the programming languages such as perl, java with a great interest on R.",
       "author": [],
       "contents": "\r\nContact\r\nFeel free to contact me on twitter, LinkedIn or via e-mail.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-10T23:33:47+09:00"
+      "last_modified": "2021-01-11T00:01:00+09:00"
     },
     {
       "path": "article.html",
@@ -20,14 +20,14 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-10T23:33:47+09:00"
+      "last_modified": "2021-01-11T00:01:00+09:00"
     },
     {
       "path": "index.html",
       "title": "Yedomon Ange Bovys Zoclanclounon's Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-10T23:33:48+09:00"
+      "last_modified": "2021-01-11T00:01:01+09:00"
     }
   ],
   "collections": ["posts/posts.json"]

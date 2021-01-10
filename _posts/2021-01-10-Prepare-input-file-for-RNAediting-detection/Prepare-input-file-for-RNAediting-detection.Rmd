@@ -56,3 +56,8 @@ I used the same for the remaining genes and concatenated all results into one **
 
 Note: A total of 35 genes are supported by PREP Suite including: accD,atpA,atpB,atpF,atpI,ccsA,clpP,matK,ndhA,ndhB,ndhD,ndhF,ndhG,petB,petD,petG,petL,psaB,psaI,psbB,psbE,psbF,
 psbL,rpl20,rpl23,rpl2,rpoA,rpoB,rpoC1,rpoC2,rps14,rps16,rps2,rps8, and ycf3 genes.
+
+
+Reference: 
+
+Mower J.P., 2009. The PREP suite: predictive RNA editors for plant mitochondrial genes, chloroplast genes and user-defined alignments. [DOI](https://doi.org/10.1093/nar/gkp337)

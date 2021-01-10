@@ -37,7 +37,7 @@ cat your_file.fasta | awk '{
 ```
 
 
-In this small script the **substr** function was employed to return the header name from after each `>` symbol and print the sequence with its corresponding name. 
+In this small script the **substr** function was employed to return the header name from after each **>** symbol and print the sequence with its corresponding name. 
 
 
 

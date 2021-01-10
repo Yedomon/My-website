@@ -1,0 +1,19 @@
+---
+title: "Publications"
+
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+
+- **2019** | [**Current Status of Pearl Millet Downy Mildew Prevalence across Agroecological Zones of Senegal.**](https://www.hindawi.com/journals/tswj/2019/1252653/)
+
+- **2018** | [**Evidence of pathogenic variation in Sclerospora graminicola populations from pearl millet growing regions in Senegal**](https://link.springer.com/article/10.1007/s42161-018-0090-2)
+
+- **2018** | [**Identification of Sources of Resistance for Peanut Aspergillus flavus Colonization and Aflatoxin Contamination**](https://www.hindawi.com/journals/ija/2018/5468602/)

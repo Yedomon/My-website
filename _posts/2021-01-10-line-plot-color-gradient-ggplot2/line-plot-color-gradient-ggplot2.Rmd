@@ -19,7 +19,6 @@ output:
     name: "line-plot-color-gradient-ggplot2"
 base_url: https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/
 creative_commons: CC BY
-preview: C:/Users/ange_/Downloads/My website/images/pic1.png
 ---
 
 
@@ -27,13 +26,6 @@ preview: C:/Users/ange_/Downloads/My website/images/pic1.png
 ```{r setup, include=TRUE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-
-```{r}
-knitr::include_graphics("C:/Users/ange_/Downloads/My website/images/pic1.png")
-```
-
-
 
 
 

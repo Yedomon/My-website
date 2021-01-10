@@ -24,8 +24,14 @@ creative_commons: CC BY
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+### Brainstorming 
+
+
 When working with the multiple-sequences fasta files, I need to split the file and use each of them for multiple sequence alignment purposes. Therefore, the following [**awk**](https://www.gnu.org/software/gawk/manual/gawk.html) based script is very helpful to complete this task.
 
+
+
+### Solution
 
 ```bash
 

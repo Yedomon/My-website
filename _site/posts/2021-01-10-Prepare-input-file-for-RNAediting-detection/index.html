@@ -2065,15 +2065,21 @@ document.addEventListener('DOMContentLoaded', function() {
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
+<li><a href="#section"></a></li>
+<li><a href="#brainstorming">Brainstorming</a></li>
+<li><a href="#solution">Solution</a></li>
 <li><a href="#cited-literature">Cited literature</a></li>
 </ul>
 </nav>
 </div>
+<h3 id="section"></h3>
+<h3 id="brainstorming">Brainstorming</h3>
 <p>I recently worked on the identification of RNA editing sites from chloroplast sequences. Since I have multiple genes, I need to use a batch style in order to detect RNA editing sites in one-time-way. The help page explains how o prepare the file for batch submission.</p>
 <blockquote>
 <p>The input file for batch mode is a tab-delimited text file that contains the following five parameters separated by a tab, with each sequence to be tested on a separate line:A sequence name (must be unique and less than 30 characters).The gene name (must be identical to one of the gene names listed in single-sequence mode.)The codon position of the first nucleotide (must be 1, 2, or 3).The cutoff value (must be between 0 and 1).The DNA sequence (must be IUPAC symbols only and less than 10 kb in length).</p>
 </blockquote>
 <p>How did I deal with this?</p>
+<h3 id="solution">Solution</h3>
 <p>Here is one example for accD gene.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="fu">cat</span> gene_accD <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;NR==2{print &quot;species_name&quot;}2&#39;</span> <span class="dt">\ </span> <span class="co">#returns the species name</span></span>

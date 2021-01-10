@@ -28,15 +28,15 @@ creative_commons: CC BY
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
+### Brainstorming
 
 The purpose here is to plot a line graph that shows the nucleotide diversity (Pi) alongside a chloroplast genome. More specifically, we want to emphasis using a gradient color a certain value up to a threshold (here **0.015**).
 
 Let's get into it!
 
+### Solution
 
-
-### Package loading
+#### Package loading
 
 ```{r, code_folding=TRUE, echo=TRUE}
 
@@ -45,7 +45,7 @@ library(ggplot2)
 ```
 
 
-### Data importaion
+#### Data importaion
 
 ```{r code_folding=TRUE, echo=TRUE}
 
@@ -54,7 +54,7 @@ data_pi = read.table("C:/Users/ange_/Downloads/My website/data.csv", sep = ";" ,
 ```
 
 
-### Our data looks like this...
+#### Our data looks like this...
 
 
 ```{r layout="l-body-outset", echo=TRUE}
@@ -62,7 +62,7 @@ library(rmarkdown)
 paged_table(data_pi)
 ```
 
-### Let's write the code
+#### Let's write the code
 
 
 ```{r fig.height=6, fig.width=10, layout="l-body-outset", pr}

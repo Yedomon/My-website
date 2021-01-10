@@ -5,10 +5,18 @@ description: |
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/
+    affiliation: Jeonbuk National University
+    affiliation_url: http://www.jbnu.ac.kr/eng/
+    orcid_id: 0000-0003-2781-0778
 date: 01-10-2021
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    theme: theme.css
+    name: "prepare-input-file-for-rnaediting-detection"
+base_url: https://yedomon.netlify.app/posts/2021-01-10-prepare-input-file-for-rnaediting-detection/
+creative_commons: CC BY
 ---
 
 

@@ -1,0 +1,10 @@
+---
+title: "Linux"
+listing:
+  posts:
+    - 2021-01-10-extract-fasta-sequence-from-a-multiple-fasta-file
+    - 2021-01-10-prepare-input-file-for-rna-editing-detection
+---
+
+
+

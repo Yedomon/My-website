@@ -8,3 +8,6 @@ library("rmarkdown")
 library("postcards")
 postcards::create_postcard("about.Rmd")
 postcards::create_postcard(template = "jolla")
+
+
+rename_post_dir("_posts/2021-01-10-Prepare-input-file-for-RNAediting-detection") 

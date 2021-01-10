@@ -34,7 +34,7 @@
     "input_file": {}
   },
   {
-    "path": "posts/2021-01-10-Prepare-input-file-for-RNAediting-detection/",
+    "path": "posts/2021-01-10-prepare-input-file-for-rna-editing-detection/",
     "title": "Prepare input file for RNA editing detection",
     "description": "This post deals with the formating of input file for RNA editing sites detection",
     "author": [

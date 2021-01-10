@@ -10,6 +10,10 @@ navbar:
   right:
     - text: "Blog"
       href: index.html
+    - text: "Linux"
+      href: Linux.html
+    - text: "R"
+      href: R.html
     - text: "Publications"
       href: Publications.html
     - text: "About Me"

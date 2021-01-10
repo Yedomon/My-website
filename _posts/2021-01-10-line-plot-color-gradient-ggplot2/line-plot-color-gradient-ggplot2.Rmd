@@ -19,7 +19,7 @@ output:
     name: "line-plot-color-gradient-ggplot2"
 base_url: https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/
 creative_commons: CC BY
-
+preview: C:/Users/ange_/Downloads/My website/images/pic1.png
 ---
 
 
@@ -27,6 +27,15 @@ creative_commons: CC BY
 ```{r setup, include=TRUE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+
+```{r}
+knitr::include_graphics("C:/Users/ange_/Downloads/My website/images/pic1.png")
+```
+
+
+
+
 
 ### Brainstorming
 
@@ -65,7 +74,7 @@ paged_table(data_pi)
 #### Let's write the code
 
 
-```{r fig.height=6, fig.width=10, layout="l-body-outset", pr}
+```{r fig.height=6, fig.width=10, layout="l-body-outset", preview=TRUE}
 
 ggplot(data_pi, aes(x=Position, y=Pi, colour = Pi)) +
   

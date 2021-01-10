@@ -1,25 +1,17 @@
 ---
 title: "Yedomon Ange Bovys Zoclanclounon"
-
-description: |
-   I am from Benin, a western African country. I have got a Master of Science degree in plant pathology and crop protection from the University of Cheikh Anta Diop of Dakar. I am currently doing a Ph.D. at Jeonbuk National University in the Republic of South Korea. My previous work focused on the identification of promising pearl millet genotypes that harbour resistance against downy mildew [Sclerospora graminicola (Sacc.) J. Schröt., (1886)]. Now I am working in plant genomics domain with a focus on high-quality genome construction of both wild and cultivated sesame. My work is highly dominated by bioinformatics. I love playing with the programming languages such as perl, java with a great interest on R.
+image: "images/profile.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/yedomon-ange-bovys-zoclanclounon-660a1755/"
+  - label: Twitter
+    url: "https://twitter.com/AngeBovys27"
+  - label: GitHub
+    url: "https://github.com/Yedomon"
+  - label: Email
+    url: "mailto:angez9914@gmail.com"
+output:
+  postcards::jolla
 ---
-
-
-
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
-
-```{r}
-knitr::include_graphics("images/profile.jpg")
-```
-
-
-# Contact
-
-Feel free to contact me on [twitter](https://twitter.com/AngeBovys27), [LinkedIn](https://www.linkedin.com/in/yedomon-ange-bovys-zoclanclounon-660a1755/) or via [e-mail](<mailto:angez9914@gmail.com>).
-
+ 
+I am from Benin, a western African country. I have got a Master of Science degree in plant pathology and crop protection from the University of Cheikh Anta Diop of Dakar. I am currently doing a Ph.D. at Jeonbuk National University in the Republic of South Korea. My previous work focused on the identification of promising pearl millet genotypes that harbour resistance against downy mildew [*Sclerospora graminicola* (Sacc.) J. Schröt., (1886)]. Now I am working in plant genomics domain with a focus on high-quality genome construction of both wild and cultivated sesame. My work is highly dominated by bioinformatics. I love playing with the programming languages such as perl, java with a great interest on R.

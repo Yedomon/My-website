@@ -31,9 +31,9 @@ The help page explains how o prepare the file for batch submission.
 
 > The input file for batch mode is a tab-delimited text file that contains the following five parameters separated by a tab, with each sequence to be tested on a separate line:A sequence name (must be unique and less than 30 characters).The gene name (must be identical to one of the gene names listed in single-sequence mode.)The codon position of the first nucleotide (must be 1, 2, or 3).The cutoff value (must be between 0 and 1).The DNA sequence (must be IUPAC symbols only and less than 10 kb in length).
 
-How I deal with this? 
+How did I deal with this? 
 
-Here is one example for accD gene
+Here is one example for accD gene.
 
 
 ```bash

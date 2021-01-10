@@ -1444,13 +1444,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
-<p>When working with the multiple-sequences fasta files, I need to split the file and use each of them for multiple sequence alignment purposes. Therefore, the following <code>awk</code> based script is very helpful to complete this task.</p>
+<p>When working with the multiple-sequences fasta files, I need to split the file and use each of them for multiple sequence alignment purposes. Therefore, the following <a href="https://www.gnu.org/software/gawk/manual/gawk.html"><strong>awk</strong></a> based script is very helpful to complete this task.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="fu">cat</span> your_file.fasta <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;{</span></span>
 <span id="cb1-3"><a href="#cb1-3"></a><span class="st">        if (substr($0, 1, 1)==&quot;&gt;&quot;) {filename=(substr($0,2) &quot;.fasta&quot;)}</span></span>
 <span id="cb1-4"><a href="#cb1-4"></a><span class="st">        print $0 &gt; filename }&#39;</span></span>
 <span id="cb1-5"><a href="#cb1-5"></a></span></code></pre></div>
-<p>In this small script the <code>substr</code> function was employed to return the header name from after each <code>&gt;</code> symbol and print the sequence with its corresponding name.</p>
+<p>In this small script the <strong>substr</strong> function was employed to return the header name from after each <code>&gt;</code> symbol and print the sequence with its corresponding name.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

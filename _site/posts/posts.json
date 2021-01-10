@@ -30,7 +30,7 @@
     "categories": [],
     "contents": "\r\nWhen working with the multiple-sequences fasta files, I need to split the file and use each of them for multiple sequence alignment purposes. Therefore, the following awk based script is very helpful to complete this task.\r\n\r\ncat your_file.fasta | awk '{\r\n        if (substr($0, 1, 1)==\">\") {filename=(substr($0,2) \".fasta\")}\r\n        print $0 > filename }'\r\n\r\nIn this small script the substr function was employed to return the header name from after each > symbol and print the sequence with its corresponding name.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-01-10T22:36:13+09:00",
+    "last_modified": "2021-01-10T22:40:11+09:00",
     "input_file": "extract-fasta-sequence-from-a-multiple-fasta-file.utf8.md"
   }
 ]

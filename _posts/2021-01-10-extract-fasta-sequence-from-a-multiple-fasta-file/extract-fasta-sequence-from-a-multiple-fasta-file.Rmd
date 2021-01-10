@@ -24,7 +24,7 @@ creative_commons: CC BY
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-When working with the multiple-sequences fasta files, I need to split the file and use each of them for multiple sequence alignment purposes. Therefore, the following `awk` based script is very helpful to complete this task.
+When working with the multiple-sequences fasta files, I need to split the file and use each of them for multiple sequence alignment purposes. Therefore, the following [**awk**](https://www.gnu.org/software/gawk/manual/gawk.html) based script is very helpful to complete this task.
 
 
 ```bash
@@ -37,7 +37,7 @@ cat your_file.fasta | awk '{
 ```
 
 
-In this small script the `substr` function was employed to return the header name from after each `>` symbol and print the sequence with its corresponding name. 
+In this small script the **substr** function was employed to return the header name from after each `>` symbol and print the sequence with its corresponding name. 
 
 
 

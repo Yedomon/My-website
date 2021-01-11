@@ -10,4 +10,11 @@ postcards::create_postcard("about.Rmd")
 postcards::create_postcard(template = "jolla")
 
 
+# Rename a post
+
 rename_post_dir("_posts/2021-01-10-Prepare-input-file-for-RNAediting-detection") 
+
+
+# Create a new post
+
+distill::create_post("Preprocessing-fasta-or-fastq-file-with-Seqtk")

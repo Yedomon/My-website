@@ -1,0 +1,237 @@
+---
+title: "Extract a set of sequences from a multi-fasta file"
+description: |
+  This tutorial deals with fasta file handeling.
+author:
+  - name: Yedomon Ange Bovys Zoclanclounon
+    url: https://yedomon.netlify.app/
+    affiliation: Jeonbuk National University
+    affiliation_url: http://www.jbnu.ac.kr/eng/
+    orcid_id: 0000-0003-2781-0778
+date: 01-11-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+### Brainstorming 
+
+
+During my Ph.D adventure, I wanted to extract from a genome assembly download from NCBI, only chromosomal sequences. As a really, really, really newbie in bioinformatics, I did not have any idea about how to proceed. A quick googling on the internet and I found the Seqtk utility tool. So I decided to test it. I was very happy to try this tool and I found other very nice capabilities of the tool.
+
+Let's get into it!
+
+
+
+### Solution
+
+First of all, I need to install the tool on my CentOS linux system.
+
+
+##### Seqtk installation 
+
+The installation process is indicated on the github [page](https://github.com/lh3/seqtk)
+
+
+```bash
+
+$ git clone https://github.com/lh3/seqtk.git; # Step 1: Clone the repository
+
+$ cd seqtk; make # Step 2: Enter into the seqtk directory and compile . 
+
+$ ./seqtk  # Check if the tool is well installed
+
+```
+
+*Note:* Make sure you have [zlib](https://www.zlib.net/) dependency installed in your system. (**yum install zlib** for Centos user)
+An alternative way is to use ```conda install seqtk``` if you are not root user. A pre-installation of [conda package manager](https://docs.conda.io/en/latest/)should be done before usage of the command `conda`.
+
+##### Usage
+
+We will use *Fusarium oxysporum f.sp. lycopersici* assembly as an example. The fungal genome is known to have 15 chromosomes plus unanchored sequences. The aim is just to pick up the 15 chromosomes.
+
+
+```bash
+
+# Download assembly file of Fusarium oxysporum f.sp. lycopersici
+
+$ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/149/955/GCF_000149955.1_ASM14995v2/GCF_000149955.1_ASM14995v2_genomic.fna.gz
+
+# Uncompress the fasta file
+
+$ gunzip GCF_000149955.1_ASM14995v2_genomic.fna.gz
+
+# How many sequences are in the asembly?
+
+grep "^>" GCF_000149955.1_ASM14995v2_genomic.fna | wc -l  # Answer: 85
+
+
+# Save int a .txt file the name of the sequences
+
+grep "^>" GCF_000149955.1_ASM14995v2_genomic.fna > sequences.names.txt
+
+
+# Get a view of the sequence name in order to see the 15 chromosome of interest
+
+
+more sequences.names.txt
+
+```
+
+
+You will get this
+
+
+
+
+```bash
+
+>NC_030986.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 1, whole genome shotgun sequence
+>NC_030987.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 2, whole genome shotgun sequence
+>NC_030988.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 3, whole genome shotgun sequence
+>NC_030989.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 4, whole genome shotgun sequence
+>NC_030990.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 5, whole genome shotgun sequence
+>NC_030991.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 6, whole genome shotgun sequence
+>NC_030992.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 7, whole genome shotgun sequence
+>NC_030993.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 8, whole genome shotgun sequence
+>NC_030994.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 9, whole genome shotgun sequence
+>NC_030995.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 10, whole genome shotgun sequence
+>NC_030996.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 11, whole genome shotgun sequence
+>NC_030997.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 12, whole genome shotgun sequence
+>NC_030998.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 13, whole genome shotgun sequence
+>NC_030999.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 14, whole genome shotgun sequence
+>NC_031000.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 15, whole genome shotgun sequence
+>NW_017264914.1 Fusarium oxysporum f. sp. lycopersici 4287 supercont2.114 genomic scaffold, whole genome shotgun sequence
+>NW_017264913.1 Fusarium oxysporum f. sp. lycopersici 4287 supercont2.113 genomic scaffold, whole genome shotgun sequence
+>NW_017264912.1 Fusarium oxysporum f. sp. lycopersici 4287 supercont2.112 genomic scaffold, whole genome shotgun sequence
+>NW_017264911.1 Fusarium oxysporum f. sp. lycopersici 4287 supercont2.111 genomic scaffold, whole genome shotgun sequence
+>NW_017264910.1 Fusarium oxysporum f. sp. lycopersici 4287 supercont2.110 genomic scaffold, whole genome shotgun sequence
+
+
+
+```
+
+
+By inspecting this output we can see the headers of the 15 chromosomes are:
+
+
+```bash
+
+NC_030986.1
+NC_030987.1
+NC_030988.1
+NC_030989.1
+NC_030990.1
+NC_030991.1
+NC_030992.1
+NC_030993.1
+NC_030994.1
+NC_030995.1
+NC_030996.1
+NC_030997.1
+NC_030998.1
+NC_030999.1
+NC_031000.1
+
+```
+
+
+Let's put this header into a **.list** file named **15chromosomes.list** using the linux editor vi for example.
+
+```bash
+
+$ vi 15chromosomes.list
+
+# Press insert, paste the list, press successfully 'ESC', ':' , 'wq' and 'Enter' keys to save your created list.
+
+````
+
+
+Now I y is possible to extract our sequences our interest by using the  **subseq** function
+
+
+
+```bash
+
+$ seqtk subseq GCF_000149955.1_ASM14995v2_genomic.fna 15chromosomes.list > Fusarium_oxysporum_fsp_lycopersici_15_chromosomes.fasta
+
+
+```
+
+
+To be sure, we can check if our task is really done by typing:
+
+
+
+```bash
+
+grep "^>" Fusarium_oxysporum_fsp_lycopersici_15_chromosomes.fasta
+
+
+```
+
+
+The following result should appear
+
+
+```
+
+>NC_030986.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 1, whole genome shotgun sequence
+>NC_030987.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 2, whole genome shotgun sequence
+>NC_030988.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 3, whole genome shotgun sequence
+>NC_030989.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 4, whole genome shotgun sequence
+>NC_030990.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 5, whole genome shotgun sequence
+>NC_030991.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 6, whole genome shotgun sequence
+>NC_030992.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 7, whole genome shotgun sequence
+>NC_030993.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 8, whole genome shotgun sequence
+>NC_030994.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 9, whole genome shotgun sequence
+>NC_030995.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 10, whole genome shotgun sequence
+>NC_030996.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 11, whole genome shotgun sequence
+>NC_030997.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 12, whole genome shotgun sequence
+>NC_030998.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 13, whole genome shotgun sequence
+>NC_030999.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 14, whole genome shotgun sequence
+>NC_031000.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 15, whole genome shotgun sequence
+
+
+
+```
+
+
+
+
+
+That's it!
+
+
+##### Summary
+
+To extract a set a sequence from a multi-fasta file, do:
+
+
+```bash
+
+$ seqtk subseq your.input.fasta the_header_of_interest_IDs.list > your_output.fasta
+
+```
+
+Others useful options of `**seqtk**` are presented [here](https://github.com/lh3/seqtk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

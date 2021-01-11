@@ -86,9 +86,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Extract sequence from a multiple-fasta file and return each sequence with the corresponding name</title>
+  <title>awk: Prepare input file for RNA editing detection</title>
   
-  <meta property="description" itemprop="description" content="This post is about how to extract from a multiple fasta file each sequence with the corresponding header"/>
+  <meta property="description" itemprop="description" content="This post deals with the formating of input file for RNA editing sites detection"/>
   
   <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
   
@@ -98,26 +98,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <meta name="article:author" content="Yedomon Ange Bovys Zoclanclounon"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Extract sequence from a multiple-fasta file and return each sequence with the corresponding name"/>
+  <meta property="og:title" content="awk: Prepare input file for RNA editing detection"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="This post is about how to extract from a multiple fasta file each sequence with the corresponding header"/>
+  <meta property="og:description" content="This post deals with the formating of input file for RNA editing sites detection"/>
   <meta property="og:locale" content="en_US"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Extract sequence from a multiple-fasta file and return each sequence with the corresponding name"/>
-  <meta property="twitter:description" content="This post is about how to extract from a multiple fasta file each sequence with the corresponding header"/>
+  <meta property="twitter:title" content="awk: Prepare input file for RNA editing detection"/>
+  <meta property="twitter:description" content="This post deals with the formating of input file for RNA editing sites detection"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","base_url","creative_commons"]}},"value":[{"type":"character","attributes":{},"value":["Extract sequence from a multiple-fasta file and return each sequence with the corresponding name"]},{"type":"character","attributes":{},"value":["This post is about how to extract from a multiple fasta file each sequence with the corresponding header\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url","orcid_id"]}},"value":[{"type":"character","attributes":{},"value":["Yedomon Ange Bovys Zoclanclounon"]},{"type":"character","attributes":{},"value":["https://yedomon.netlify.app/"]},{"type":"character","attributes":{},"value":["Jeonbuk National University"]},{"type":"character","attributes":{},"value":["http://www.jbnu.ac.kr/eng/"]},{"type":"character","attributes":{},"value":["0000-0003-2781-0778"]}]}]},{"type":"character","attributes":{},"value":["01-10-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","theme","name"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["theme.css"]},{"type":"character","attributes":{},"value":["Extract sequence from a multiple-fasta file"]}]}]},{"type":"character","attributes":{},"value":["https://yedomon.netlify.app/posts/2021-01-10-extract-fasta-sequence-from-a-multiple-fasta-file/"]},{"type":"character","attributes":{},"value":["CC BY"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","base_url","creative_commons"]}},"value":[{"type":"character","attributes":{},"value":["awk: Prepare input file for RNA editing detection"]},{"type":"character","attributes":{},"value":["This post deals with the formating of input file for RNA editing sites detection\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url","orcid_id"]}},"value":[{"type":"character","attributes":{},"value":["Yedomon Ange Bovys Zoclanclounon"]},{"type":"character","attributes":{},"value":["https://yedomon.netlify.app/"]},{"type":"character","attributes":{},"value":["Jeonbuk National University"]},{"type":"character","attributes":{},"value":["http://www.jbnu.ac.kr/eng/"]},{"type":"character","attributes":{},"value":["0000-0003-2781-0778"]}]}]},{"type":"character","attributes":{},"value":["01-10-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","theme","name"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["theme.css"]},{"type":"character","attributes":{},"value":["prepare-input-file-for-rnaediting-detection"]}]}]},{"type":"character","attributes":{},"value":["https://yedomon.netlify.app/posts/2021-01-10-prepare-input-file-for-rnaediting-detection/"]},{"type":"character","attributes":{},"value":["CC BY"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["extract-fasta-sequence-from-a-multiple-fasta-file_files/anchor-4.2.2/anchor.min.js","extract-fasta-sequence-from-a-multiple-fasta-file_files/bowser-1.9.3/bowser.min.js","extract-fasta-sequence-from-a-multiple-fasta-file_files/distill-2.2.21/template.v2.js","extract-fasta-sequence-from-a-multiple-fasta-file_files/jquery-1.11.3/jquery.min.js","extract-fasta-sequence-from-a-multiple-fasta-file_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["Prepare-input-file-for-RNAediting-detection_files/anchor-4.2.2/anchor.min.js","Prepare-input-file-for-RNAediting-detection_files/bowser-1.9.3/bowser.min.js","Prepare-input-file-for-RNAediting-detection_files/distill-2.2.21/template.v2.js","Prepare-input-file-for-RNAediting-detection_files/jquery-1.11.3/jquery.min.js","Prepare-input-file-for-RNAediting-detection_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1405,11 +1405,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
   
   <!--/radix_placeholder_distill-->
-  <script src="extract-fasta-sequence-from-a-multiple-fasta-file_files/jquery-1.11.3/jquery.min.js"></script>
-  <script src="extract-fasta-sequence-from-a-multiple-fasta-file_files/anchor-4.2.2/anchor.min.js"></script>
-  <script src="extract-fasta-sequence-from-a-multiple-fasta-file_files/bowser-1.9.3/bowser.min.js"></script>
-  <script src="extract-fasta-sequence-from-a-multiple-fasta-file_files/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="extract-fasta-sequence-from-a-multiple-fasta-file_files/distill-2.2.21/template.v2.js"></script>
+  <script src="Prepare-input-file-for-RNAediting-detection_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="Prepare-input-file-for-RNAediting-detection_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="Prepare-input-file-for-RNAediting-detection_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="Prepare-input-file-for-RNAediting-detection_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="Prepare-input-file-for-RNAediting-detection_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1421,7 +1421,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Extract sequence from a multiple-fasta file and return each sequence with the corresponding name","description":"This post is about how to extract from a multiple fasta file each sequence with the corresponding header","authors":[{"author":"Yedomon Ange Bovys Zoclanclounon","authorURL":"https://yedomon.netlify.app/","affiliation":"Jeonbuk National University","affiliationURL":"http://www.jbnu.ac.kr/eng/","orcidID":"0000-0003-2781-0778"}],"publishedDate":"2021-01-10T00:00:00.000+09:00","citationText":"Zoclanclounon, 2021"}
+{"title":"awk: Prepare input file for RNA editing detection","description":"This post deals with the formating of input file for RNA editing sites detection","authors":[{"author":"Yedomon Ange Bovys Zoclanclounon","authorURL":"https://yedomon.netlify.app/","affiliation":"Jeonbuk National University","affiliationURL":"http://www.jbnu.ac.kr/eng/","orcidID":"0000-0003-2781-0778"}],"publishedDate":"2021-01-10T00:00:00.000+09:00","citationText":"Zoclanclounon, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1431,10 +1431,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Extract sequence from a multiple-fasta file and return each sequence with the corresponding name</h1>
+<h1>awk: Prepare input file for RNA editing detection</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>This post is about how to extract from a multiple fasta file each sequence with the corresponding header</p></p>
+<p><p>This post deals with the formating of input file for RNA editing sites detection</p></p>
 </div>
 
 <div class="d-byline">
@@ -1448,21 +1448,37 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
+<li><a href="#section"></a></li>
 <li><a href="#brainstorming">Brainstorming</a></li>
 <li><a href="#solution">Solution</a></li>
+<li><a href="#cited-literature">Cited literature</a></li>
 </ul>
 </nav>
 </div>
+<h3 id="section"></h3>
 <h3 id="brainstorming">Brainstorming</h3>
-<p>When working with the multiple-sequences fasta files, I need to split the file and use each of them for multiple sequence alignment purposes. Therefore, the following <a href="https://www.gnu.org/software/gawk/manual/gawk.html"><strong>awk</strong></a> based script is very helpful to complete this task.</p>
+<p>I recently worked on the identification of RNA editing sites from chloroplast sequences. Since I have multiple genes, I need to use a batch style in order to detect RNA editing sites in one-time-way. The help page explains how o prepare the file for batch submission.</p>
+<blockquote>
+<p>The input file for batch mode is a tab-delimited text file that contains the following five parameters separated by a tab, with each sequence to be tested on a separate line:A sequence name (must be unique and less than 30 characters).The gene name (must be identical to one of the gene names listed in single-sequence mode.)The codon position of the first nucleotide (must be 1, 2, or 3).The cutoff value (must be between 0 and 1).The DNA sequence (must be IUPAC symbols only and less than 10 kb in length).</p>
+</blockquote>
+<p>How did I deal with this?</p>
 <h3 id="solution">Solution</h3>
+<p>Here is one example for accD gene.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">cat</span> your_file.fasta <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;{</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="st">        if (substr($0, 1, 1)==&quot;&gt;&quot;) {filename=(substr($0,2) &quot;.fasta&quot;)}</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="st">        print $0 &gt; filename }&#39;</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a></span></code></pre></div>
-<p>In this small script the <strong>substr</strong> function was employed to return the header name from after each <strong>&gt;</strong> symbol and print the sequence with its corresponding name.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">cat</span> gene_accD <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;NR==2{print &quot;species_name&quot;}2&#39;</span> <span class="dt">\ </span> <span class="co">#returns the species name</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a>              <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;NR==3{print &quot;accD&quot;}3&#39;</span> <span class="dt">\ </span>         <span class="co">#returns the gene name in accordance with PREP sUITE nomenclature</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>              <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;NR==4{print &quot;1&quot;}4&#39;</span> <span class="dt">\ </span>            <span class="co"># returns the codon position of the first nucleotide</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a>              <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;NR==5{print &quot;0.8&quot;}5&#39;</span><span class="dt">\ </span>           <span class="co"># returns the cutoff value</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a>              <span class="kw">|</span> <span class="fu">awk</span> <span class="st">&#39;{if (NR!=1) {print}}&#39;</span><span class="kw">|</span> <span class="fu">awk</span> -F<span class="st">&#39;\n&#39;</span> <span class="st">&#39;{$1=$1} 1&#39;</span> RS=<span class="st">&#39;\n\n&#39;</span> OFS=<span class="st">&#39;\t&#39;</span> <span class="op">&gt;</span> accD.rna.ready <span class="co"># create a tab-delimited text file </span></span>
+<span id="cb1-7"><a href="#cb1-7"></a>                                                                                                       <span class="co"># that contains the five parameters separated by a tab</span></span></code></pre></div>
+<p>The expected output looks like this:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="ex">species_name</span>       accD    1       0.8     ATGGAAAGATGGTGGTTTAATTCGATGGTGTTTAAGAAGGAGTTAGAACGCAGGTATGGGATAAAGAAATCAACGG</span></code></pre></div>
+<p>I used the same for the remaining genes and concatenated all results into one <strong>.txt</strong> file as input for <a href="http://prep.unl.edu/"><strong>PREP Suite tool</strong></a><sup><a href="#alchemy-docs-1">[1]</a></sup>.</p>
+<p>Note: A total of 35 genes are supported by PREP Suite including: accD,atpA,atpB,atpF,atpI,ccsA,clpP,matK,ndhA,ndhB,ndhD,ndhF,ndhG,petB,petD,petG,petL,psaB,psaI,psbB,psbE,psbF, psbL,rpl20,rpl23,rpl2,rpoA,rpoB,rpoC1,rpoC2,rps14,rps16,rps2,rps8, and ycf3 genes.</p>
+<h3 id="cited-literature">Cited literature</h3>
+<p><a name="sqlalchemy-docs-1">[1]</a>:Mower J.P., 2009. The PREP suite: predictive RNA editors for plant mitochondrial genes, chloroplast genes and user-defined alignments. <a href="https://doi.org/10.1093/nar/gkp337">DOI</a></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

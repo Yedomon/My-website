@@ -17,35 +17,35 @@
       <pubDate>mar., 12 janv. 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Extract a specific set of sequences from a multi-fasta file</title>
+      <title>seqtk: Extract a specific set of sequences from a multi-fasta file</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
-      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-11-extract-a-specific-set-of-sequences-from-a-multi-fasta-file</link>
+      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-11-seqtk-extract-a-specific-set-of-sequences-from-a-multi-fasta-file</link>
       <description>This tutorial deals with one aspect of a fasta file handling.</description>
-      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-11-extract-a-specific-set-of-sequences-from-a-multi-fasta-file</guid>
+      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-11-seqtk-extract-a-specific-set-of-sequences-from-a-multi-fasta-file</guid>
       <pubDate>lun., 11 janv. 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Extract sequence from a multiple-fasta file and return each sequence with the corresponding name</title>
+      <title>awk: Extract sequence from a multiple-fasta file and return each sequence with the corresponding name</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
-      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-extract-fasta-sequence-from-a-multiple-fasta-file</link>
+      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-awk-extract-sequence-from-a-multiple-fasta-file-and-return-each-sequence-with-the-corresponding-name</link>
       <description>This post is about how to extract from a multiple fasta file each sequence with the corresponding header</description>
-      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-extract-fasta-sequence-from-a-multiple-fasta-file</guid>
+      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-awk-extract-sequence-from-a-multiple-fasta-file-and-return-each-sequence-with-the-corresponding-name</guid>
       <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Line graph with a color gradient using ggplot2</title>
+      <title>awk: Prepare input file for RNA editing detection</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
-      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-line-plot-color-gradient-ggplot2</link>
-      <description>This tutorial provides a way to plot a line graph with ggplot2 with a color gradient</description>
-      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-line-plot-color-gradient-ggplot2</guid>
-      <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Prepare input file for RNA editing detection</title>
-      <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
-      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-prepare-input-file-for-rna-editing-detection</link>
+      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-awk-prepare-input-file-for-rna-editing-detection</link>
       <description>This post deals with the formating of input file for RNA editing sites detection</description>
-      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-prepare-input-file-for-rna-editing-detection</guid>
+      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-awk-prepare-input-file-for-rna-editing-detection</guid>
+      <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>R: Line graph with a color gradient using ggplot2</title>
+      <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
+      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2</link>
+      <description>This tutorial provides a way to plot a line graph with ggplot2 with a color gradient</description>
+      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2</guid>
       <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>

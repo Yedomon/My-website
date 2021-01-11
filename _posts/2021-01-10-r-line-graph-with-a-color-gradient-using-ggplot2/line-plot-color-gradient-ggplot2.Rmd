@@ -1,5 +1,5 @@
 ---
-title: "Line graph with a color gradient using ggplot2"
+title: "R: Line graph with a color gradient using ggplot2"
 description: |
   This tutorial provides a way to plot a line graph with ggplot2 with a color gradient
 author:

@@ -1,5 +1,5 @@
 ---
-title: "Extract a specific set of sequences from a multi-fasta file"
+title: "seqtk: Extract a specific set of sequences from a multi-fasta file"
 description: |
   This tutorial deals with one aspect of a fasta file handling.
 author:

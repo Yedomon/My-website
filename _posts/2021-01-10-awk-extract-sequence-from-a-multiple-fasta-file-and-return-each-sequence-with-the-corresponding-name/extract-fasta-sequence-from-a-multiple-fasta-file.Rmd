@@ -1,5 +1,5 @@
 ---
-title: "Extract sequence from a multiple-fasta file and return each sequence with the corresponding name"
+title: "awk: Extract sequence from a multiple-fasta file and return each sequence with the corresponding name"
 description: |
   This post is about how to extract from a multiple fasta file each sequence with the corresponding header
 author:

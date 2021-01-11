@@ -12,7 +12,12 @@ postcards::create_postcard(template = "jolla")
 
 # Rename a post
 
-rename_post_dir("_posts/2021-01-10-Prepare-input-file-for-RNAediting-detection") 
+rename_post_dir("_posts/2021-01-10-extract-fasta-sequence-from-a-multiple-fasta-file")
+rename_post_dir("_posts/2021-01-10-line-plot-color-gradient-ggplot2")
+rename_post_dir("_posts/2021-01-10-prepare-input-file-for-rna-editing-detection")
+rename_post_dir("_posts/2021-01-11-extract-a-specific-set-of-sequences-from-a-multi-fasta-file")
+rename_post_dir("_posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character")
+
 
 
 # Create a new post

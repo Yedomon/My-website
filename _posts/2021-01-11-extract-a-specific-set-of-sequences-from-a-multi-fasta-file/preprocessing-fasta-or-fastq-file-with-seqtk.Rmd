@@ -1,5 +1,5 @@
 ---
-title: "Extract a set of sequences from a multi-fasta file"
+title: "Extract a specific set of sequences from a multi-fasta file"
 description: |
   This tutorial deals with fasta file handeling.
 author:
@@ -220,7 +220,7 @@ $ seqtk subseq your.input.fasta the_header_of_interest_IDs.list > your_output.fa
 
 ```
 
-Others useful options of `**seqtk**` are presented [here](https://github.com/lh3/seqtk)
+Others useful options of **`seqtk`** are presented [here](https://github.com/lh3/seqtk)
 
 
 

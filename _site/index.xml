@@ -33,7 +33,7 @@
       <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Extract a set of sequences from a multi-fasta file</title>
+      <title>Extract a specific set of sequences from a multi-fasta file</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
       <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-11-preprocessing-fasta-or-fastq-file-with-seqtk</link>
       <description>This tutorial deals with fasta file handeling.</description>

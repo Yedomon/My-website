@@ -18,3 +18,8 @@ rename_post_dir("_posts/2021-01-10-Prepare-input-file-for-RNAediting-detection")
 # Create a new post
 
 distill::create_post("Preprocessing-fasta-or-fastq-file-with-Seqtk")
+
+
+# change my post title
+
+rename_post_dir("_posts/2021-01-11-preprocessing-fasta-or-fastq-file-with-seqtk") 

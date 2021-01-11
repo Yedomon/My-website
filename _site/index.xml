@@ -9,6 +9,14 @@
     <generator>Distill</generator>
     <lastBuildDate>dim., 10 janv. 2021 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Extract a specific set of sequences from a multi-fasta file</title>
+      <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
+      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-11-extract-a-specific-set-of-sequences-from-a-multi-fasta-file</link>
+      <description>This tutorial deals with one aspect of a fasta file handling.</description>
+      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-11-extract-a-specific-set-of-sequences-from-a-multi-fasta-file</guid>
+      <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Extract sequence from a multiple-fasta file and return each sequence with the corresponding name</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
       <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-extract-fasta-sequence-from-a-multiple-fasta-file</link>
@@ -30,14 +38,6 @@
       <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-prepare-input-file-for-rna-editing-detection</link>
       <description>This post deals with the formating of input file for RNA editing sites detection</description>
       <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-prepare-input-file-for-rna-editing-detection</guid>
-      <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Extract a specific set of sequences from a multi-fasta file</title>
-      <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
-      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-11-preprocessing-fasta-or-fastq-file-with-seqtk</link>
-      <description>This tutorial deals with fasta file handeling.</description>
-      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-11-preprocessing-fasta-or-fastq-file-with-seqtk</guid>
       <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>

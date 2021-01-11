@@ -12,6 +12,11 @@ date: 01-11-2021
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    theme: theme.css
+    name: "Extract a specific set of sequences from a multi-fasta file"
+base_url: https://yedomon.netlify.app/posts/2021-01-11-extract-a-specific-set-of-sequences-from-a-multi-fasta-file/
+creative_commons: CC BY
 ---
 
 
@@ -50,7 +55,7 @@ $ ./seqtk  # Check if the tool is well installed
 ```
 
 *Note:* Make sure you have [zlib](https://www.zlib.net/) dependency installed in your system. (**yum install zlib** for Centos user)
-An alternative way is to use ```conda install seqtk``` if you are not root user. A pre-installation of [conda package manager](https://docs.conda.io/en/latest/)should be done before usage of the command `conda`.
+An alternative way is to use ```conda install seqtk``` if you are not root user. A pre-installation of [conda package manager](https://docs.conda.io/en/latest/) should be done before usage of the command `conda`.
 
 ##### Usage
 

@@ -4,8 +4,8 @@
       "path": "about.html",
       "title": "Yedomon Ange Bovys Zoclanclounon",
       "author": [],
-      "contents": "",
-      "last_modified": "2021-01-12T00:33:22+09:00"
+      "contents": "\r\nI am from Benin, a western African country. I have got a Master of Science degree in plant pathology and crop protection from the University of Cheikh Anta Diop of Dakar. I am currently doing a Ph.D. at Jeonbuk National University in the Republic of South Korea. My previous work focused on the identification of promising pearl millet genotypes that harbour resistance against downy mildew [Sclerospora graminicola (Sacc.) J. Schröt., (1886)]. Now I am working in plant genomics domain with a focus on high-quality genome construction of both wild and cultivated sesame. My work is highly dominated by bioinformatics. I love playing with the programming languages such as perl, java with a great interest in R.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-12T01:15:41+09:00"
     },
     {
       "path": "article.html",
@@ -19,21 +19,21 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-12T00:33:23+09:00"
+      "last_modified": "2021-01-12T01:14:46+09:00"
     },
     {
       "path": "index.html",
       "title": "",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-12T00:33:24+09:00"
+      "last_modified": "2021-01-12T01:14:46+09:00"
     },
     {
       "path": "Linux.html",
       "title": "Linux",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-12T00:33:24+09:00"
+      "last_modified": "2021-01-12T01:14:47+09:00"
     },
     {
       "path": "Publications.html",
@@ -41,14 +41,14 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n2019 | Current Status of Pearl Millet Downy Mildew Prevalence across Agroecological Zones of Senegal.\r\n2018 | Evidence of pathogenic variation in Sclerospora graminicola populations from pearl millet growing regions in Senegal\r\n2018 | Identification of Sources of Resistance for Peanut Aspergillus flavus Colonization and Aflatoxin Contamination\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-12T00:33:25+09:00"
+      "last_modified": "2021-01-12T01:14:48+09:00"
     },
     {
       "path": "R.html",
       "title": "R",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-01-12T00:33:26+09:00"
+      "last_modified": "2021-01-12T01:14:48+09:00"
     }
   ],
   "collections": ["posts/posts.json"]

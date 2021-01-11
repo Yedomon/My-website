@@ -17,7 +17,7 @@ rename_post_dir("_posts/2021-01-10-Prepare-input-file-for-RNAediting-detection")
 
 # Create a new post
 
-distill::create_post("Preprocessing-fasta-or-fastq-file-with-Seqtk")
+distill::create_post("awk: How to remove the rest of a fasta header name after a specific character")
 
 
 # change my post title

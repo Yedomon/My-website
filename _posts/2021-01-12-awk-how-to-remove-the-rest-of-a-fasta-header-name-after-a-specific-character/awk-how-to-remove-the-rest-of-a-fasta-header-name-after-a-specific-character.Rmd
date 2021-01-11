@@ -1,23 +1,115 @@
 ---
 title: "awk: How to remove the rest of a fasta header name after a specific character"
 description: |
-  A short description of the post.
+  This short post is about how to clean a fasta header and keep only the necessary.
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/
+    affiliation_url: http://www.jbnu.ac.kr/eng/
+    orcid_id: 0000-0003-2781-0778
 date: 01-12-2021
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    theme: theme.css
+    name: "wk: How to remove the rest of a fasta header name after a specific character"
+base_url: https://yedomon.netlify.app/posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character/
+    creative_commons: CC BY
 ---
 
+### Brainstorming
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+I have a fasta file with the following sequence header name. See in my previous [post](https://yedomon.netlify.app/posts/2021-01-11-extract-a-specific-set-of-sequences-from-a-multi-fasta-file/).
+
+
+
+
+```bash
+
+>NC_030986.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 1, whole genome shotgun sequence
+>NC_030987.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 2, whole genome shotgun sequence
+>NC_030988.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 3, whole genome shotgun sequence
+>NC_030989.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 4, whole genome shotgun sequence
+>NC_030990.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 5, whole genome shotgun sequence
+>NC_030991.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 6, whole genome shotgun sequence
+>NC_030992.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 7, whole genome shotgun sequence
+>NC_030993.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 8, whole genome shotgun sequence
+>NC_030994.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 9, whole genome shotgun sequence
+>NC_030995.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 10, whole genome shotgun sequence
+>NC_030996.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 11, whole genome shotgun sequence
+>NC_030997.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 12, whole genome shotgun sequence
+>NC_030998.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 13, whole genome shotgun sequence
+>NC_030999.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 14, whole genome shotgun sequence
+>NC_031000.1 Fusarium oxysporum f. sp. lycopersici 4287 chromosome 15, whole genome shotgun sequence
+
+
+
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+I want to clean the sequence header by removing the remainings characters after **`NCxxxx.1`**
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
 
+
+### Solution
+
+```bash
+
+cat Fusarium_oxysporum_fsp_lycopersici_15_chromosomes.fasta | awk -F' ' '{print $1}' > Fusarium_oxysporum_fsp_lycopersici_15_chromosomes_header_cleaned.fasta
+
+
+```
+
+
+Let's check
+
+```bash
+
+$ grep "^>" Fusarium_oxysporum_fsp_lycopersici_15_chromosomes_header_cleaned.fasta
+
+```
+
+
+The result is:
+
+
+
+```bash
+
+>NC_030986.1
+>NC_030987.1
+>NC_030988.1
+>NC_030989.1
+>NC_030990.1
+>NC_030991.1
+>NC_030992.1
+>NC_030993.1
+>NC_030994.1
+>NC_030995.1
+>NC_030996.1
+>NC_030997.1
+>NC_030998.1
+>NC_030999.1
+>NC_031000.1
+
+
+
+```
+
+
+Great!
+
+
+In summary the syntax is
+
+
+
+```bash
+
+$ cat your.file | awk -F'the_character_of_your_interest' '{print $1}' > your_output
+
+```
+
+
+This syntax will return the text by excluding all others characters after the specified one.
 

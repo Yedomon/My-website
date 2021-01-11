@@ -2,8 +2,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>An autodidact diary</title>
-    <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/</link>
-    <atom:link href="https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/index.xml" rel="self" type="application/rss+xml"/>
+    <link>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/</link>
+    <atom:link href="https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/index.xml" rel="self" type="application/rss+xml"/>
     <description>Yedomon Ange Bovys Zoclanclounon
 </description>
     <generator>Distill</generator>
@@ -11,41 +11,41 @@
     <item>
       <title>awk: How to remove the rest of a fasta header name after a specific character</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
-      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character</link>
+      <link>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character</link>
       <description>This short post is about how to clean a fasta header and keep only the necessary.</description>
-      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character</guid>
+      <guid>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character</guid>
       <pubDate>mar., 12 janv. 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>seqtk: Extract a specific set of sequences from a multi-fasta file</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
-      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-11-seqtk-extract-a-specific-set-of-sequences-from-a-multi-fasta-file</link>
+      <link>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-11-seqtk-extract-a-specific-set-of-sequences-from-a-multi-fasta-file</link>
       <description>This tutorial deals with one aspect of a fasta file handling.</description>
-      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-11-seqtk-extract-a-specific-set-of-sequences-from-a-multi-fasta-file</guid>
+      <guid>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-11-seqtk-extract-a-specific-set-of-sequences-from-a-multi-fasta-file</guid>
       <pubDate>lun., 11 janv. 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>awk: Extract sequence from a multiple-fasta file and return each sequence with the corresponding name</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
-      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-awk-extract-sequence-from-a-multiple-fasta-file-and-return-each-sequence-with-the-corresponding-name</link>
+      <link>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-10-awk-extract-sequence-from-a-multiple-fasta-file-and-return-each-sequence-with-the-corresponding-name</link>
       <description>This post is about how to extract from a multiple fasta file each sequence with the corresponding header</description>
-      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-awk-extract-sequence-from-a-multiple-fasta-file-and-return-each-sequence-with-the-corresponding-name</guid>
+      <guid>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-10-awk-extract-sequence-from-a-multiple-fasta-file-and-return-each-sequence-with-the-corresponding-name</guid>
       <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>awk: Prepare input file for RNA editing detection</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
-      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-awk-prepare-input-file-for-rna-editing-detection</link>
+      <link>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-10-awk-prepare-input-file-for-rna-editing-detection</link>
       <description>This post deals with the formating of input file for RNA editing sites detection</description>
-      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-awk-prepare-input-file-for-rna-editing-detection</guid>
+      <guid>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-10-awk-prepare-input-file-for-rna-editing-detection</guid>
       <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>R: Line graph with a color gradient using ggplot2</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
-      <link>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2</link>
+      <link>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2</link>
       <description>This tutorial provides a way to plot a line graph with ggplot2 with a color gradient</description>
-      <guid>https://yedomon.netlify.app/posts/2021-01-10-line-plot-color-gradient-ggplot2/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2</guid>
+      <guid>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2</guid>
       <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>

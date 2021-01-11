@@ -2,8 +2,10 @@
 title: "Linux"
 listing:
   posts:
-    - 2021-01-10-extract-fasta-sequence-from-a-multiple-fasta-file
-    - 2021-01-10-prepare-input-file-for-rna-editing-detection
+    - 2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character
+    - 2021-01-11-seqtk-extract-a-specific-set-of-sequences-from-a-multi-fasta-file
+    - 2021-01-10-awk-extract-sequence-from-a-multiple-fasta-file-and-return-each-sequence-with-the-corresponding-name
+    - 2021-01-10-awk-prepare-input-file-for-rna-editing-detection
 ---
 
 

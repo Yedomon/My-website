@@ -2,7 +2,7 @@
 title: "R"
 listing:
   posts:
-    - 2021-01-10-line-plot-color-gradient-ggplot2
+    - 2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2
 ---
 
 

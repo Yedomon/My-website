@@ -13,7 +13,7 @@ output:
     self_contained: false
     toc: true
     theme: theme.css
-    name: "wk: How to remove the rest of a fasta header name after a specific character"
+    name: "awk: How to remove the rest of a fasta header name after a specific character"
 base_url: https://yedomon.netlify.app/posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character/
     creative_commons: CC BY
 ---

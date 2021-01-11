@@ -7,14 +7,14 @@
     <description>Yedomon Ange Bovys Zoclanclounon
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>lun., 11 janv. 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>mar., 12 janv. 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>awk: How to remove the rest of a fasta header name after a specific character</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
       <link>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character</link>
       <description>This short post is about how to clean a fasta header and keep only the necessary.</description>
       <guid>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character</guid>
-      <pubDate>lun., 11 janv. 2021 00:00:00 +0000</pubDate>
+      <pubDate>mar., 12 janv. 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>seqtk: Extract a specific set of sequences from a multi-fasta file</title>

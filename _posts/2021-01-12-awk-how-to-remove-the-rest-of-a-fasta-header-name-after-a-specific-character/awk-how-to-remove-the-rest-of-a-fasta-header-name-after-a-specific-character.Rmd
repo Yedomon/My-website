@@ -5,6 +5,7 @@ description: |
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/
+    affiliation: Jeonbuk National University
     affiliation_url: http://www.jbnu.ac.kr/eng/
     orcid_id: 0000-0003-2781-0778
 date: 01-12-2021
@@ -15,7 +16,7 @@ output:
     theme: theme.css
     name: "awk: How to remove the rest of a fasta header name after a specific character"
 base_url: https://yedomon.netlify.app/posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character/
-    creative_commons: CC BY
+creative_commons: CC BY
 ---
 
 ### Brainstorming

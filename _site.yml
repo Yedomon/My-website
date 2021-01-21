@@ -4,7 +4,7 @@ theme: theme.css
 description: |
   Yedomon Ange Bovys Zoclanclounon
 output_dir: "_site"
-base_url: https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/
+base_url: https://yedomon.netlify.app
 navbar:
   right:
     - text: "Home"
@@ -19,6 +19,8 @@ navbar:
       href: about.html
 collections:
   posts: 
+    disqus: posts
+    share: [twitter, linkedin]
     categories: true
   analyses:
     categories: true

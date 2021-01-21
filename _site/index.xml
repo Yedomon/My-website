@@ -7,14 +7,14 @@
     <description>Yedomon Ange Bovys Zoclanclounon
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>mer., 20 janv. 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>jeu., 21 janv. 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Python: Find single-nucleotide polymorphism from aligned sequences</title>
       <dc:creator>Yedomon Ange Bovys Zoclanclounon</dc:creator>
       <link>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-21-python-find-single-nucleotide-polymorphism-from-aligned-sequences</link>
       <description>This short blog deal with the detection of SNPs from two aligned sequences</description>
       <guid>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-21-python-find-single-nucleotide-polymorphism-from-aligned-sequences</guid>
-      <pubDate>mer., 20 janv. 2021 00:00:00 +0000</pubDate>
+      <pubDate>jeu., 21 janv. 2021 00:00:00 +0000</pubDate>
       <media:content url="https://miro.medium.com/max/4200/0*8d9OlKLLOHkSRVN4.png" medium="image" type="image/png"/>
     </item>
     <item>
@@ -60,7 +60,7 @@
       <description>This tutorial provides a way to plot a line graph with ggplot2 with a color gradient</description>
       <guid>https://yedomon.netlify.app/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2/posts/2021-01-10-r-line-graph-with-a-color-gradient-using-ggplot2</guid>
       <pubDate>dim., 10 janv. 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://www.nicolaromano.net/wp-content/uploads/2020/04/ggplot.png" medium="image" type="image/png"/>
+      <media:content url="https://github.com/Yedomon/plastomics101/blob/main/pic1.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

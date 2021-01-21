@@ -17,6 +17,8 @@ navbar:
       href: Publications.html
     - text: "About Me"
       href: about.html
+rss:
+  full_content: true
 collections:
   posts: 
     disqus: posts

@@ -2,6 +2,7 @@
 title: "awk: Extract sequence from a multiple-fasta file and return each sequence with the corresponding name"
 description: |
   This post is about how to extract from a multiple fasta file each sequence with the corresponding header
+preview: https://cdn.nextjournal.com/data/QmZwtpT9ko15h26Fn2VH2HratvDncLVRS3yUcVBiuMyJ94?filename=awk.png&content-type=image/png
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/

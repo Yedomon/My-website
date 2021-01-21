@@ -102,7 +102,7 @@ A view of the result
 
 ```bash
 
-more snp.output.txt
+$ more snp.output.txt
 
 ```
 

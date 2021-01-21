@@ -21,6 +21,7 @@ collections:
   posts: 
     disqus: posts
     share: [twitter, linkedin]
+    subscribe: _subscribe.html
     categories: true
   analyses:
     categories: true

@@ -18,7 +18,8 @@ navbar:
     - text: "About Me"
       href: about.html
 rss:
-  full_content: true
+    full_content: true
+    
 collections:
   posts: 
     disqus: posts

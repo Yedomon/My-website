@@ -2,6 +2,7 @@
 title: "awk: Prepare input file for RNA editing detection"
 description: |
   This post deals with the formating of input file for RNA editing sites detection
+preview: https://cdn.nextjournal.com/data/QmZwtpT9ko15h26Fn2VH2HratvDncLVRS3yUcVBiuMyJ94?filename=awk.png&content-type=image/png
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/

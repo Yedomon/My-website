@@ -24,6 +24,9 @@ rename_post_dir("_posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-
 
 distill::create_post("awk: How to remove the rest of a fasta header name after a specific character")
 
+distill::create_post("Python: Find single-nucleotide polymorphism from aligned sequences")
+
+
 
 # change my post title
 

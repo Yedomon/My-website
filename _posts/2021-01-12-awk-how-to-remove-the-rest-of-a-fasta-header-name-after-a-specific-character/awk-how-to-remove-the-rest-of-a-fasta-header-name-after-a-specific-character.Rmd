@@ -2,6 +2,7 @@
 title: "awk: How to remove the rest of a fasta header name after a specific character"
 description: |
   This short post is about how to clean a fasta header and keep only the necessary.
+preview: https://cdn.nextjournal.com/data/QmZwtpT9ko15h26Fn2VH2HratvDncLVRS3yUcVBiuMyJ94?filename=awk.png&content-type=image/png
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/
@@ -21,7 +22,7 @@ creative_commons: CC BY
 
 ### Brainstorming
 
-I have a fasta file with the following sequence header name. See in my previous [post](https://yedomon.netlify.app/posts/2021-01-11-extract-a-specific-set-of-sequences-from-a-multi-fasta-file/).
+I have a fasta file with the following sequence header name. See in my previous [post](https://yedomon.netlify.app/posts/2021-01-11-seqtk-extract-a-specific-set-of-sequences-from-a-multi-fasta-file/).
 
 
 

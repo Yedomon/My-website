@@ -2,6 +2,7 @@
 title: "R: Line graph with a color gradient using ggplot2"
 description: |
   This tutorial provides a way to plot a line graph with ggplot2 with a color gradient
+preview: https://www.nicolaromano.net/wp-content/uploads/2020/04/ggplot.png
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/

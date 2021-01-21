@@ -17,6 +17,11 @@ navbar:
       href: Publications.html
     - text: "About Me"
       href: about.html
+collections:
+  posts: 
+    categories: true
+  analyses:
+    categories: true
 output: distill::distill_article
 
 

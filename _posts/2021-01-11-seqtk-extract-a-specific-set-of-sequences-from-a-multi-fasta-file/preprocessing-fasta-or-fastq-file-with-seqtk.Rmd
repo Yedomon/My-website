@@ -2,6 +2,7 @@
 title: "seqtk: Extract a specific set of sequences from a multi-fasta file"
 description: |
   This tutorial deals with one aspect of a fasta file handling.
+preview: https://command-not-found.com/og/1200x628/cmd/seqtk.png
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/

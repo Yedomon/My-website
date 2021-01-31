@@ -2,6 +2,7 @@
 title: "Genome assembly of Oryza sativa using PacBio Hifi dataset"
 description: |
   PacBio Hifi assembly of rice genome.
+preview: https://scx2.b-cdn.net/gfx/news/hires/2014/3000ricegeno.jpg
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/

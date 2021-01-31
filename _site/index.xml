@@ -201,6 +201,7 @@ Command being timed: &amp;quot;bash run_hifiasm.sh&amp;quot;
       <distill:md5>d46196477b5942efaa674829814c611c</distill:md5>
       <guid>https://yedomon.netlify.app/posts/2021-01-31-genome-assembly-of-oryza-sativa-using-pacbio-hifi-dataset</guid>
       <pubDate>sam., 30 janv. 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://scx2.b-cdn.net/gfx/news/hires/2014/3000ricegeno.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>Python: Find single-nucleotide polymorphism from aligned sequences</title>

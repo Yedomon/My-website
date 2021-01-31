@@ -78,9 +78,9 @@ awk &amp;#39;/^S/{print &amp;quot;&amp;gt;&amp;quot;$2;print $3}&amp;#39; Rice.a
 $ /usr/bin/time -o out.ram.time.txt -v bash run_hifiasm.sh 2&amp;gt; log.hifiasm &amp;amp; 
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then I type &lt;em&gt;exit&lt;/em&gt; to put in background the process.&lt;/p&gt;
+&lt;p&gt;Then I type &lt;strong&gt;exit&lt;/strong&gt; to put in background the running process.&lt;/p&gt;
 &lt;h3 id="results"&gt;Results&lt;/h3&gt;
-&lt;p&gt;Let’s check the assembly sttistics&lt;/p&gt;
+&lt;p&gt;Let’s check the assembly statistics&lt;/p&gt;
 &lt;pre class="bash"&gt;&lt;code&gt;
 $ assembly-stats Rice.asm.p_ctg.fa
 
@@ -194,12 +194,14 @@ Hifiasm is incredibly fast. A total of &lt;strong&gt;~18 mn&lt;/strong&gt; (syst
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p style="text-align:justify;"&gt;
-The peak memory was also low &lt;strong&gt;21.64 MB&lt;/strong&gt;, showing that Hifiasm is less memory consuming. The Hifiasm assembly size was &lt;strong&gt;421 MB&lt;/strong&gt;, representing &lt;strong&gt;97.90%&lt;/strong&gt; of the estimated size. Besides, the contiguity is incredibly high (N50 = 13.84 Mbp) compared to the recent Pacbio CLR, linkage mapping and fosmid-based assembly released by &lt;a href="https://www.nature.com/articles/ncomms15324"&gt;&lt;strong&gt;Du et al. (2017)&lt;/strong&gt;&lt;/a&gt;.A basic comparison with the chromosomal-scale assemblies from CANU and HERA assemblers with PacBio CLR data (Table 1) showed that the Hifiasm assembly is quite good for Hi-C scaffolding.
+The peak memory was also low &lt;strong&gt;21.64 MB&lt;/strong&gt;, showing that Hifiasm is less memory consuming. The Hifiasm assembly size was &lt;strong&gt;421 MB&lt;/strong&gt;, representing &lt;strong&gt;97.90%&lt;/strong&gt; of the estimated size. Besides, the contiguity is quite high (&lt;strong&gt;N50 = 13.84 Mbp&lt;/strong&gt;) compared to the recent Pacbio CLR, linkage mapping and fosmid-based assembly released by &lt;a href="https://www.nature.com/articles/ncomms15324"&gt;&lt;strong&gt;Du et al. (2017)&lt;/strong&gt;&lt;/a&gt;.A basic comparison with the chromosomal-scale assemblies from CANU &lt;a href="https://genome.cshlp.org/content/27/5/722"&gt;&lt;strong&gt;Koren et al. (2017)&lt;/strong&gt;&lt;/a&gt; and HERA &lt;a href="https://www.nature.com/articles/s41467-019-13355-3"&gt;&lt;strong&gt;Du and Liang (2019)&lt;/strong&gt;&lt;/a&gt; assemblers with PacBio CLR data (Table 1) showed that the Hifiasm assembly is quite good for Hi-C scaffolding.
 &lt;/p&gt;
 &lt;h3 id="cited-literature"&gt;Cited literature&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://science.sciencemag.org/content/296/5565/79"&gt;Yu et al. 2020 | A Draft Sequence of the Rice Genome (Oryza sativa L. ssp. indica)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://www.nature.com/articles/ncomms15324#Tab2"&gt;Du et al. 2017 | Sequencing and de novo assembly of a near complete indica rice genome&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.nature.com/articles/s41467-019-13355-3"&gt;Du and Liang 2019 | Assembly of chromosome-scale contigs by efficiently resolving repetitive sequences with long reads&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://genome.cshlp.org/content/27/5/722"&gt;Koren et al. 2017 | Canu: scalable and accurate long-read assembly via adaptive k-mer weighting and repeat separation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://science.sciencemag.org/content/296/5565/79"&gt;Yu et al. 2020 | A Draft Sequence of the Rice Genome (Oryza sativa L. ssp. indica)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre class="r distill-force-highlighting-css"&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
       <distill:md5>d46196477b5942efaa674829814c611c</distill:md5>

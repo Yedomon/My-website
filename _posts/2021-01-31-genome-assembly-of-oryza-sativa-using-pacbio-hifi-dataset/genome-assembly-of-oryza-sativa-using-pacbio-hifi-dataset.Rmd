@@ -14,7 +14,7 @@ output:
     self_contained: false
     toc: true
     theme: theme.css
-    name: "prepare-input-file-for-rnaediting-detection"
+    name: "genome-assembly-of-oryza-sativa-using-pacbio-hifi-dataset"
 base_url: https://yedomon.netlify.app/posts/2021-01-31-genome-assembly-of-oryza-sativa-using-pacbio-hifi-dataset/
 creative_commons: CC BY
 ---

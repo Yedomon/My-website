@@ -1457,9 +1457,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </ul>
 </nav>
 </div>
-<p>With the rise of long-reads sequencing technologies, it is now possible to get tens of Kb fragments reads.</p>
-<p>Recently, the advent of high fidelity Pacbio long-reads drastically improve the accuracy of SMRT Sequencing platforms.</p>
-<p>In this post, I will test the genome assembly of rice genome using Hifiasm assembler.</p>
+<p style="text-align:justify;">
+With the rise of long-reads sequencing technologies, it is now possible to get tens of Kb fragments reads.Recently, the advent of high fidelity Pacbio long-reads drastically improve the accuracy of SMRT Sequencing platforms.In this post, I will test the genome assembly of rice genome using <a href="https://github.com/chhylp123/hifiasm">Hifiasm</a> assembler.
+</p>
 <h3 id="installation">Installation</h3>
 <p>For the installation, I proceed like recommended by the developer.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a></span>
@@ -1474,8 +1474,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <span id="cb2-4"><a href="#cb2-4"></a></span>
 <span id="cb2-5"><a href="#cb2-5"></a>$ <span class="fu">sudo</span> yum install zlib-devel</span></code></pre></div>
 <h3 id="data-retrieving">Data retrieving</h3>
-<p>For this assembly execution, I will use the rice O. sativa MH63 Hifi data available <a href="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR996/001/SRR9969481/SRR9969481_subreads.fastq.gz">here</a></p>
-<p>I grabbed the data set from European Nucleotide Archive <a href="https://www.ebi.ac.uk/ena/browser/home">(ENA)</a> using the following accession number <strong>SRR9969481</strong></p>
+<p style="text-align:justify;">
+For this assembly execution, I will use the rice O. sativa MH63 Hifi data available <a href="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR996/001/SRR9969481/SRR9969481_subreads.fastq.gz">here</a>. I grabbed the data set from European Nucleotide Archive <a href="https://www.ebi.ac.uk/ena/browser/home">(ENA)</a> using the following accession number <strong>SRR9969481</strong>
+</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a></span>
 <span id="cb3-2"><a href="#cb3-2"></a></span>
 <span id="cb3-3"><a href="#cb3-3"></a><span class="co"># Download the data</span></span>
@@ -1562,7 +1563,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <span id="cb8-26"><a href="#cb8-26"></a></span>
 <span id="cb8-27"><a href="#cb8-27"></a></span></code></pre></div>
 <h3 id="comments">Comments</h3>
-<p>Hifiasm is incredibly fast. A total of <strong>~18 mn</strong> (system time) to assemble a <strong>~430 Mb</strong> <a href="https://science.sciencemag.org/content/296/5565/79">(Yu et al., 2002)</a> genome with <strong>32 cores</strong>.</p>
+<p style="text-align:justify;">
+Hifiasm is incredibly fast. A total of <strong>~18 mn</strong> (system time) to assemble a <strong>~430 Mb</strong> <a href="https://science.sciencemag.org/content/296/5565/79">(<strong>Yu et al., 2002</strong>)</a> genome with <strong>32 cores</strong>.
+</p>
 <p>Table 1: Basics assembly statistics of R498 and MH63 assemblies</p>
 <table>
 <thead>
@@ -1624,8 +1627,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </tr>
 </tbody>
 </table>
-<p>The peak memory was also low <strong>21.64 MB</strong>, showing that Hifiasm is less memory consuming. The Hifiasm assembly size was</p>
-<p><strong>421 MB</strong>, representing <strong>97.90%</strong> of the estimated size. Besides, the contiguity is incredibly high (N50 = 13.84 Mbp) compared to the recent Pacbio CLR, linkage mapping and fosmid-based assembly released by <a href="https://www.nature.com/articles/ncomms15324"><strong>Du et al. 2017</strong></a>.A basic comparison with the chromosomal-scale assemblies from CANU and HERA assemblers with PacBio CLR data (Table 1) showed that the Hifiasm assembly is quite good for Hi-C scaffolding.</p>
+<p style="text-align:justify;">
+The peak memory was also low <strong>21.64 MB</strong>, showing that Hifiasm is less memory consuming. The Hifiasm assembly size was <strong>421 MB</strong>, representing <strong>97.90%</strong> of the estimated size. Besides, the contiguity is incredibly high (N50 = 13.84 Mbp) compared to the recent Pacbio CLR, linkage mapping and fosmid-based assembly released by <a href="https://www.nature.com/articles/ncomms15324"><strong>Du et al. (2017)</strong></a>.A basic comparison with the chromosomal-scale assemblies from CANU and HERA assemblers with PacBio CLR data (Table 1) showed that the Hifiasm assembly is quite good for Hi-C scaffolding.
+</p>
 <h3 id="cited-literature">Cited literature</h3>
 <ul>
 <li><p><a href="https://science.sciencemag.org/content/296/5565/79">Yu et al. 2020 | A Draft Sequence of the Rice Genome (Oryza sativa L. ssp. indica)</a></p></li>

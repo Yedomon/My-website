@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-<p style="text-align:justify;">With the rise of long-reads sequencing technologies, it is now possible to get tens of Kb fragments reads.Recently, the advent of high fidelity Pacbio long-reads drastically improve the accuracy of SMRT Sequencing platforms.In this post, I will test the genome assembly of rice genome using [Hifiasm](https://github.com/chhylp123/hifiasm) assembler.</p>
+<p style="text-align:justify;">With the rise of long-reads sequencing technologies, it is now possible to get tens of Kb fragments reads. Recently, the advent of high fidelity Pacbio long-reads drastically improve the accuracy of SMRT Sequencing platforms. In this post, I will test the genome assembly of rice genome using [Hifiasm](https://github.com/chhylp123/hifiasm) assembler.</p>
 
 
 

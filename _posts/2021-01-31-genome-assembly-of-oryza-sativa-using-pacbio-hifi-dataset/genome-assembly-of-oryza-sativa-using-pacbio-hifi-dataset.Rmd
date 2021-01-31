@@ -237,7 +237,7 @@ Table 1: Basics assembly statistics of R498 and MH63 assemblies
 
 
 
-<p style="text-align:justify;">The peak memory was also low **21.64 MB**, showing that Hifiasm is less memory consuming. The Hifiasm assembly size was **421 MB**, representing **97.90%** of the estimated size. Besides, the contiguity is quite high (**N50 = 13.84 Mbp**) compared to the recent Pacbio CLR, linkage mapping and fosmid-based assembly released by [**Du et al. (2017)**](https://www.nature.com/articles/ncomms15324).A basic comparison with the chromosomal-scale assemblies from CANU [**Koren et al. (2017)**](https://genome.cshlp.org/content/27/5/722)  and HERA [**Du and Liang (2019)**](https://www.nature.com/articles/s41467-019-13355-3) assemblers with PacBio CLR data (Table 1) showed that the Hifiasm assembly is quite good for Hi-C scaffolding. </p>
+<p style="text-align:justify;">The peak memory was also low **21.64 MB**, showing that Hifiasm is less memory consuming. The Hifiasm assembly size was **421 MB**, representing **97.90%** of the estimated size. Besides, the contiguity is quite high (**N50 = 13.84 Mbp**) compared to the recent Pacbio CLR, linkage mapping and fosmid-based assembly released by [**Du et al. (2017)**](https://www.nature.com/articles/ncomms15324).A basic comparison with the chromosomal-scale assemblies from CANU [**(Koren et al., 2017)**](https://genome.cshlp.org/content/27/5/722)  and HERA [**(Du and Liang, 2019)**](https://www.nature.com/articles/s41467-019-13355-3) assemblers with PacBio CLR data (Table 1) showed that the Hifiasm assembly is quite good for Hi-C scaffolding. </p>
 
 
 

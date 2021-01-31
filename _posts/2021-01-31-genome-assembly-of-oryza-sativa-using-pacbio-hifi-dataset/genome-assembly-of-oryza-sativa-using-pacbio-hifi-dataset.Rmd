@@ -226,10 +226,10 @@ Table 1: Basics assembly statistics of R498 and MH63 assemblies
 | Data type      | PacBio hifi | PacBio CLR | PacBio CLR |
 | Assembler      | Hifiasm     | CANU       | HERA       |
 | Assembly level | Contigs     | Chromosome | Chromosome |
-| Assembly size  | 421362451   | 390983850  | 391626037  |
+| Assembly size (bp)  | 421,362,451   | 390,983,850  | 391,626,037  |
 | Contigs number | 1225        | 14         | 12         |
-| Largest contig | 37513714    | 44361539   | 45881347   |
-| N50            | 13841853    | 31778392   | 31347481   |
+| Largest contig (bp) | 37,513,714    | 44,361,539   | 45,881,347   |
+| N50 (bp)            | 13,841,853    | 31,778,392   | 31,347,481   |
 | L50            | 12          | 6          | 6          |
 
 

@@ -1,0 +1,14 @@
+---
+title: "Genomics"
+listing:
+  posts:
+    - 2021-01-31-genome-assembly-of-oryza-sativa-using-pacbio-hifi-dataset
+---
+
+
+
+
+
+
+
+

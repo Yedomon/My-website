@@ -13,6 +13,10 @@
     <lastmod>2021-01-10T02:30:14+09:00</lastmod>
   </url>
   <url>
+    <loc>https://yedomon.netlify.app/Genomics.html</loc>
+    <lastmod>2021-02-01T01:08:28+09:00</lastmod>
+  </url>
+  <url>
     <loc>https://yedomon.netlify.app/</loc>
     <lastmod>2021-01-11T04:24:37+09:00</lastmod>
   </url>
@@ -27,6 +31,10 @@
   <url>
     <loc>https://yedomon.netlify.app/R.html</loc>
     <lastmod>2021-01-12T01:34:24+09:00</lastmod>
+  </url>
+  <url>
+    <loc>https://yedomon.netlify.app/posts/2021-01-31-genome-assembly-of-oryza-sativa-using-pacbio-hifi-dataset/</loc>
+    <lastmod>2021-02-01T01:14:34+09:00</lastmod>
   </url>
   <url>
     <loc>https://yedomon.netlify.app/posts/2021-01-21-python-find-single-nucleotide-polymorphism-from-aligned-sequences/</loc>

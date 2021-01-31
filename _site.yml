@@ -9,6 +9,8 @@ navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "Genomics"
+      href: Genomics.html
     - text: "Linux"
       href: Linux.html
     - text: "R"

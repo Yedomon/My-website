@@ -27,6 +27,8 @@ distill::create_post("awk: How to remove the rest of a fasta header name after a
 distill::create_post("Python: Find single-nucleotide polymorphism from aligned sequences")
 
 
+distill::create_post("Genome assembly of Oryza sativa using PacBio Hifi dataset")
+
 
 # change my post title
 

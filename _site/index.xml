@@ -25,8 +25,8 @@ $ sudo git clone https://github.com/chhylp123/hifiasm
 
 $ cd hifiasm &amp;amp;&amp;amp; make
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Note: Make sure you have installed g++ and zlib dependencies.&lt;/p&gt;
-&lt;p&gt;I am using a Centos 7 distribution. So I installed zlib and g++ following the code:&lt;/p&gt;
+&lt;p&gt;Note: Make sure you have installed &lt;strong&gt;g++&lt;/strong&gt; and &lt;strong&gt;zlib&lt;/strong&gt; dependencies.&lt;/p&gt;
+&lt;p&gt;I am using a Centos 7 distribution. So I installed &lt;strong&gt;zlib&lt;/strong&gt; and &lt;strong&gt;g++&lt;/strong&gt; following the code:&lt;/p&gt;
 &lt;pre class="bash"&gt;&lt;code&gt;
 $ sudo yum install gcc-c++
 
@@ -35,7 +35,7 @@ $ sudo yum install zlib-devel
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id="data-retrieving"&gt;Data retrieving&lt;/h3&gt;
 &lt;p style="text-align:justify;"&gt;
-For this assembly execution, I will use the rice O. sativa MH63 Hifi data available &lt;a href="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR996/001/SRR9969481/SRR9969481_subreads.fastq.gz"&gt;here&lt;/a&gt;. I grabbed the data set from European Nucleotide Archive &lt;a href="https://www.ebi.ac.uk/ena/browser/home"&gt;(ENA)&lt;/a&gt; using the following accession number &lt;strong&gt;SRR9969481&lt;/strong&gt;
+For this assembly execution, I will use the rice &lt;strong&gt;&lt;em&gt;O. sativa&lt;/em&gt;&lt;/strong&gt; MH63 Hifi data available &lt;a href="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR996/001/SRR9969481/SRR9969481_subreads.fastq.gz"&gt;here&lt;/a&gt;. I grabbed the data set from European Nucleotide Archive &lt;a href="https://www.ebi.ac.uk/ena/browser/home"&gt;(ENA)&lt;/a&gt; using the following accession number &lt;strong&gt;SRR9969481&lt;/strong&gt;
 &lt;/p&gt;
 &lt;pre class="bash"&gt;&lt;code&gt;
 
@@ -99,7 +99,7 @@ N_count = 0
 Gaps = 0
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here are some characteristics related to the running process&lt;/p&gt;
+&lt;p&gt;Here are some characteristics related to the running process:&lt;/p&gt;
 &lt;pre class="bash"&gt;&lt;code&gt;
 
 Command being timed: &amp;quot;bash run_hifiasm.sh&amp;quot;
@@ -194,7 +194,7 @@ Hifiasm is incredibly fast. A total of &lt;strong&gt;~18 mn&lt;/strong&gt; (syst
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p style="text-align:justify;"&gt;
-The peak memory was also low &lt;strong&gt;21.64 MB&lt;/strong&gt;, showing that Hifiasm is less memory consuming. The Hifiasm assembly size was &lt;strong&gt;421 MB&lt;/strong&gt;, representing &lt;strong&gt;97.90%&lt;/strong&gt; of the estimated size. Besides, the contiguity is quite high (&lt;strong&gt;N50 = 13.84 Mbp&lt;/strong&gt;) compared to the recent Pacbio CLR, linkage mapping and fosmid-based assembly released by &lt;a href="https://www.nature.com/articles/ncomms15324"&gt;&lt;strong&gt;Du et al. (2017)&lt;/strong&gt;&lt;/a&gt;. A basic comparison with the chromosomal-scale assemblies from CANU &lt;a href="https://genome.cshlp.org/content/27/5/722"&gt;&lt;strong&gt;(Koren et al., 2017)&lt;/strong&gt;&lt;/a&gt; and HERA &lt;a href="https://www.nature.com/articles/s41467-019-13355-3"&gt;&lt;strong&gt;(Du and Liang, 2019)&lt;/strong&gt;&lt;/a&gt; assemblers with PacBio CLR data (Table 1) showed that the Hifiasm assembly is quite good for Hi-C scaffolding.
+The peak memory was also low &lt;strong&gt;21.64 MB&lt;/strong&gt;, showing that Hifiasm is less memory consuming. The Hifiasm assembly size was &lt;strong&gt;421 Mbp&lt;/strong&gt;, representing &lt;strong&gt;97.90%&lt;/strong&gt; of the estimated size. Besides, the contiguity is quite high (&lt;strong&gt;N50 = 13.84 Mbp&lt;/strong&gt;) compared to the recent Pacbio CLR, linkage mapping and fosmid-based assembly released by &lt;a href="https://www.nature.com/articles/ncomms15324"&gt;&lt;strong&gt;Du et al. (2017)&lt;/strong&gt;&lt;/a&gt;. A basic comparison with the chromosomal-scale assemblies from CANU &lt;a href="https://genome.cshlp.org/content/27/5/722"&gt;&lt;strong&gt;(Koren et al., 2017)&lt;/strong&gt;&lt;/a&gt; and HERA &lt;a href="https://www.nature.com/articles/s41467-019-13355-3"&gt;&lt;strong&gt;(Du and Liang, 2019)&lt;/strong&gt;&lt;/a&gt; assemblers with PacBio CLR data (Table 1) showed that the Hifiasm assembly is quite good for Hi-C scaffolding.
 &lt;/p&gt;
 &lt;h3 id="cited-literature"&gt;Cited literature&lt;/h3&gt;
 &lt;ul&gt;

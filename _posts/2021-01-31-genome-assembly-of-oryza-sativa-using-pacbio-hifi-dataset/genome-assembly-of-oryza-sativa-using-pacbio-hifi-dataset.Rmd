@@ -212,7 +212,7 @@ Command being timed: "bash run_hifiasm.sh"
 
 ### Comments
 
-<p style="text-align:justify;">Hifiasm is incredibly fast. A total of **~18 mn** (system time) to assemble a **~430 Mb** [(**Yu et al., 2002**)](https://science.sciencemag.org/content/296/5565/79) genome with **32 cores**.</p>
+<p style="text-align:justify;">Hifiasm [**(Cheng et al., 2021)**](https://www.nature.com/articles/s41592-020-01056-5.epdf?sharing_token=gOs_Vf3Mp87PwxwOWBR9TdRgN0jAjWel9jnR3ZoTv0PEptI9_4gtBx6ljxr0whf0cYzRf6jNFncOK-h9I2pNj7zgjAjzTvz5DZ6OR5woNG7_ZnL517PlPbK8h-g9oucxb3hTlS62DXkNKpafRKz0oqAvl8bMAcGgXyVIDKdNBME%3D&s=03) is incredibly fast. A total of **~18 mn** (system time) to assemble a **~430 Mb** [(**Yu et al., 2002**)](https://science.sciencemag.org/content/296/5565/79) genome with **32 cores**.</p>
 
 
 
@@ -244,7 +244,7 @@ Table 1: Basics assembly statistics of R498 and MH63 assemblies
 
 ### Cited literature 
 
-
+- [Cheng et al. 2021 | Haplotype-resolved de novo assembly using phased assembly graphs with hifiasm](https://www.nature.com/articles/s41592-020-01056-5.epdf?sharing_token=gOs_Vf3Mp87PwxwOWBR9TdRgN0jAjWel9jnR3ZoTv0PEptI9_4gtBx6ljxr0whf0cYzRf6jNFncOK-h9I2pNj7zgjAjzTvz5DZ6OR5woNG7_ZnL517PlPbK8h-g9oucxb3hTlS62DXkNKpafRKz0oqAvl8bMAcGgXyVIDKdNBME%3D&s=03)
 
 - [Du et al. 2017 | Sequencing and de novo assembly of a near complete indica rice genome](https://www.nature.com/articles/ncomms15324#Tab2)
 

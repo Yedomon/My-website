@@ -9,6 +9,8 @@ navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "About"
+      href: about.html
     - text: "Genomics"
       href: Genomics.html
     - text: "Linux"
@@ -17,8 +19,7 @@ navbar:
       href: R.html
     - text: "Publications"
       href: Publications.html
-    #- text: "About Me"
-     # href: about.html
+
 rss:
     full_content: true
     

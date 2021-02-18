@@ -4,7 +4,7 @@ theme: theme.css
 description: |
   Yedomon Ange Bovys Zoclanclounon
 output_dir: "_site"
-base_url: https://yedomon.netlify.app
+base_url: https://yedomon.netlify.app/about.html
 navbar:
   right:
     - text: "Home"

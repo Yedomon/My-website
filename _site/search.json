@@ -4,8 +4,8 @@
       "path": "about.html",
       "title": "Yedomon Ange Bovys Zoclanclounon",
       "author": [],
-      "contents": "\r\nBio\r\n\r\nI am from Benin, a western African country. I am currently doing a Ph.D. at Jeonbuk National University in the Republic of South Korea. I am working in plant genomics domain with a focus on high-quality genome construction of both wild and cultivated sesame. My work is highly dominated by bioinformatics. I love playing with the programming languages such as perl, java with a great interest in R.\r\n\r\nEducation\r\nJeonbuk National University | Jeonju, South Korea\r\nPh. D. in Plant Biotechnology | March 2020 - Present\r\nUniversity Cheikh Anta Diop of Dakar | Senegal, West Africa\r\nMSc in Crop Sciences and Crop Protection | September 2015 - March 2017\r\nExperience\r\nNational Institute of Agricultural Science | South Korea | Research-Assistant | August 2018 - February 2020\r\nCentre d’Etudes Régional pour l’Amélioration de l’Adaptation à la Sècheresse | Research-Assistant | August 2017 - February 2018\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T02:04:26+09:00"
+      "contents": "",
+      "last_modified": "2021-02-19T02:06:11+09:00"
     },
     {
       "path": "article.html",
@@ -19,28 +19,28 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:47:58+09:00"
+      "last_modified": "2021-02-19T02:06:11+09:00"
     },
     {
       "path": "Genomics.html",
       "title": "Genomics",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:47:58+09:00"
+      "last_modified": "2021-02-19T02:06:12+09:00"
     },
     {
       "path": "index.html",
       "title": "",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:51:46+09:00"
+      "last_modified": "2021-02-19T02:06:12+09:00"
     },
     {
       "path": "Linux.html",
       "title": "Linux",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:47:59+09:00"
+      "last_modified": "2021-02-19T02:06:13+09:00"
     },
     {
       "path": "Publications.html",
@@ -48,14 +48,14 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n2019 | Current Status of Pearl Millet Downy Mildew Prevalence across Agroecological Zones of Senegal.\r\n2018 | Evidence of pathogenic variation in Sclerospora graminicola populations from pearl millet growing regions in Senegal\r\n2018 | Identification of Sources of Resistance for Peanut Aspergillus flavus Colonization and Aflatoxin Contamination\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:48:00+09:00"
+      "last_modified": "2021-02-19T02:06:13+09:00"
     },
     {
       "path": "R.html",
       "title": "R",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:49:18+09:00"
+      "last_modified": "2021-02-19T02:06:14+09:00"
     }
   ],
   "collections": ["posts/posts.json"]

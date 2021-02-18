@@ -8,7 +8,7 @@ library("rmarkdown")
 library("postcards")
 postcards::create_postcard("about.Rmd")
 postcards::create_postcard(template = "jolla")
-
+postcards::create_postcard(template = "trestles")
 
 # Rename a post
 

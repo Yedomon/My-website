@@ -5,7 +5,7 @@
       "title": "Yedomon Ange Bovys Zoclanclounon",
       "author": [],
       "contents": "",
-      "last_modified": "2021-02-19T01:20:20+09:00"
+      "last_modified": "2021-02-19T01:27:06+09:00"
     },
     {
       "path": "article.html",
@@ -19,28 +19,28 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:20:20+09:00"
+      "last_modified": "2021-02-19T01:27:06+09:00"
     },
     {
       "path": "Genomics.html",
       "title": "Genomics",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:20:21+09:00"
+      "last_modified": "2021-02-19T01:27:07+09:00"
     },
     {
       "path": "index.html",
       "title": "",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:24:04+09:00"
+      "last_modified": "2021-02-19T01:29:53+09:00"
     },
     {
       "path": "Linux.html",
       "title": "Linux",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:20:22+09:00"
+      "last_modified": "2021-02-19T01:27:08+09:00"
     },
     {
       "path": "Publications.html",
@@ -48,14 +48,14 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n2019 | Current Status of Pearl Millet Downy Mildew Prevalence across Agroecological Zones of Senegal.\r\n2018 | Evidence of pathogenic variation in Sclerospora graminicola populations from pearl millet growing regions in Senegal\r\n2018 | Identification of Sources of Resistance for Peanut Aspergillus flavus Colonization and Aflatoxin Contamination\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:20:23+09:00"
+      "last_modified": "2021-02-19T01:27:09+09:00"
     },
     {
       "path": "R.html",
       "title": "R",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-19T01:20:23+09:00"
+      "last_modified": "2021-02-19T01:27:09+09:00"
     }
   ],
   "collections": ["posts/posts.json"]

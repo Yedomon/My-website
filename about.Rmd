@@ -12,7 +12,7 @@ links:
     url: "mailto:angez9914@gmail.com"
 output:
   postcards::trestles
-site: distill:distill_website
+
 ---
 
 ## Bio

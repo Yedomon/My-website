@@ -10,10 +10,28 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+**2019**
 
 
-- **2019** | [**Current Status of Pearl Millet Downy Mildew Prevalence across Agroecological Zones of Senegal.**](https://www.hindawi.com/journals/tswj/2019/1252653/)
+  1. <p style="text-align:justify;">**Yedomon Ange Bovys Zoclanclounon**, Ghislain Kanfany, Aboubacry Kane, Daniel Fonceka, Georgina Lala Ehemba, Fatmata Ly. Current status of pearl millet downy mildew prevalence across agroecological zones of Senegal. *The Scientific Journal*. [DOI](https://doi.org/10.1155/2019/1252653) </p>
 
-- **2018** | [**Evidence of pathogenic variation in Sclerospora graminicola populations from pearl millet growing regions in Senegal**](https://link.springer.com/article/10.1007/s42161-018-0090-2)
+  2. <p style="text-align:justify;">Georgina Lala Ehemba, **Yedomon Ange Bovys Zoclanclounon**, Moustapha Gueye, Cyril Diatta, Martial Barnabe Etienne Diatta, Cheikh Thiaw, Alfred Kouly Tine, Alpha Bocar Baldé, Ghislain Kanfany. Evaluation of extra-early maturing maize genotypes for grain yield and stability in the groundnut basin agro-ecological zone of Senegal. *Agriculture and Food Sciences Research*. [DOI](https://doi.org/10.20448/journal.512.2019.61.79.84) </p>
 
-- **2018** | [**Identification of Sources of Resistance for Peanut Aspergillus flavus Colonization and Aflatoxin Contamination**](https://www.hindawi.com/journals/ija/2018/5468602/)
+
+**2018**
+  
+  3. <p style="text-align:justify;">Ghislain Kanfany, **Yedomon Ange Bovys Zoclanclounon**, Pangirayi Tongoona, Agyemang Danquah, Samuel Kwame Offei, Amadou Fofana, Cheikh Thiaw, Eric Yirenkyi Danquah, Ndiaga Cisse. Evidence of pathogenic variation in *Sclerospora graminicola* populations from pearl millet growing regions in Senegal. *Journal of Plant Pathology*. [DOI](https://doi.org/10.1007/s42161-018-0090-2) </p>
+  
+  4. <p style="text-align:justify;">Richard Moise Alansou Dieme, Issa Faye, **Yedomon Ange Bovys Zoclanclounon**, Daniel Fonceka, Ousmane Ndoye, Papa Madiallacke Diedhiou. Identification of sources of resistance for peanut *Aspergillus flavus* colonization and aflatoxin contamination. *International Journal of Agronomy*. [DOI](https://doi.org/10.1155/2018/5468602) </p>
+  
+  5. <p style="text-align:justify;">**Yedomon Ange Bovys Zoclanclounon**, Ghislain Kanfany, Cheikh Thiaw, Amadou Fofana, Nalla Mbaye, Ndiaga Cisse. Assessment of pearl millet genotypes for downy mildew resistance and agronomic performance under field conditions in Senegal. *International Journal of Agriculture and Biology*. [DOI](https://www.researchgate.net/profile/Ghislain-Kanfany/publication/323636485_Assessment_of_Pearl_Millet_Genotypes_for_Downy_Mildew_Resistance_and_Agronomic_Performance_under_Field_Conditions_in_Senegal/links/5aa6cc1c0f7e9bbbff8ca05e/Assessment-of-Pearl-Millet-Genotypes-for-Downy-Mildew-Resistance-and-Agronomic-Performance-under-Field-Conditions-in-Senegal.pdf) </p>
+
+**2016**
+  
+  6. <p style="text-align:justify;">Daniel Chepo Chougourou, **Yedomon Ange Bovys Zoclanclounon**, Christophe Homevo Agossa, Sewanoude Elvire Doris Sakiti, Alponse Agbaka. Efficacy of mixed powders of Piper guineense and Zingiber officinale as maize grain protectants against *Sitophilus zeamais* Motschulsky (Coleoptera: Curculionidae). *International Journal of Biological and Chemical Sciences*. [DOI](https://www.ajol.info/index.php/ijbcs/article/view/153680) </p>
+  
+  7. <p style="text-align:justify;">Daniel Chepo Chougourou, Christophe Homevo Agossa, **Yedomon Ange Bovys Zoclanclounon**, Medewouin Genice Nassara, Alphonse Agbaka. Efficacy of two plant powders as cowpea grain protectants against *Callosobruchus maculatus* Fabricius (Coleoptera, Chrysomelideae: Bruchinae). *Journal of Applied Biosciences*. [DOI](https://www.ajol.info/index.php/jab/article/view/147779) </p>
+
+**2015**
+
+  8. <p style="text-align:justify;">Daniel Chepo Chougourou, **Yedomon Ange Bovys Zoclanclounon**, Alphonse Agbaka, Abou Togola. Toxicity of two plant powders as biopesticides in the management of Callosobruchus maculatus F. (Coleoptera: Chrysomelidae, Bruchinae) on two stored grain legumes. *Journal of Applied Biosciences*. [DOI](https://www.ajol.info/index.php/jab/article/view/115634)  </p>

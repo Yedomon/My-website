@@ -5,7 +5,7 @@
       "title": "Yedomon Ange Bovys Zoclanclounon",
       "author": [],
       "contents": "",
-      "last_modified": "2021-02-20T21:03:12+09:00"
+      "last_modified": "2021-02-21T18:58:52+09:00"
     },
     {
       "path": "article.html",
@@ -19,43 +19,43 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-20T21:03:12+09:00"
+      "last_modified": "2021-02-21T18:58:52+09:00"
     },
     {
       "path": "Genomics.html",
       "title": "Genomics",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-20T21:03:13+09:00"
+      "last_modified": "2021-02-21T18:58:53+09:00"
     },
     {
       "path": "index.html",
       "title": "",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-20T21:03:13+09:00"
+      "last_modified": "2021-02-21T18:58:54+09:00"
     },
     {
       "path": "Linux.html",
       "title": "Linux",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-20T21:03:14+09:00"
+      "last_modified": "2021-02-21T18:58:54+09:00"
     },
     {
       "path": "Publications.html",
       "title": "Publications",
       "author": [],
       "date": "`r Sys.Date()`",
-      "contents": "\r\n2019 | Current Status of Pearl Millet Downy Mildew Prevalence across Agroecological Zones of Senegal.\r\n2018 | Evidence of pathogenic variation in Sclerospora graminicola populations from pearl millet growing regions in Senegal\r\n2018 | Identification of Sources of Resistance for Peanut Aspergillus flavus Colonization and Aflatoxin Contamination\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-20T21:03:15+09:00"
+      "contents": "\r\n2019\r\n\r\nYedomon Ange Bovys Zoclanclounon, Ghislain Kanfany, Aboubacry Kane, Daniel Fonceka, Georgina Lala Ehemba, Fatmata Ly. Current status of pearl millet downy mildew prevalence across agroecological zones of Senegal. The Scientific Journal. DOI\r\n\r\n\r\nGeorgina Lala Ehemba, Yedomon Ange Bovys Zoclanclounon, Moustapha Gueye, Cyril Diatta, Martial Barnabe Etienne Diatta, Cheikh Thiaw, Alfred Kouly Tine, Alpha Bocar Baldé, Ghislain Kanfany. Evaluation of extra-early maturing maize genotypes for grain yield and stability in the groundnut basin agro-ecological zone of Senegal. Agriculture and Food Sciences Research. DOI\r\n\r\n2018\r\n\r\nGhislain Kanfany, Yedomon Ange Bovys Zoclanclounon, Pangirayi Tongoona, Agyemang Danquah, Samuel Kwame Offei, Amadou Fofana, Cheikh Thiaw, Eric Yirenkyi Danquah, Ndiaga Cisse. Evidence of pathogenic variation in Sclerospora graminicola populations from pearl millet growing regions in Senegal. Journal of Plant Pathology. DOI\r\n\r\n\r\nRichard Moise Alansou Dieme, Issa Faye, Yedomon Ange Bovys Zoclanclounon, Daniel Fonceka, Ousmane Ndoye, Papa Madiallacke Diedhiou. Identification of sources of resistance for peanut Aspergillus flavus colonization and aflatoxin contamination. International Journal of Agronomy. DOI\r\n\r\n\r\nYedomon Ange Bovys Zoclanclounon, Ghislain Kanfany, Cheikh Thiaw, Amadou Fofana, Nalla Mbaye, Ndiaga Cisse. Assessment of pearl millet genotypes for downy mildew resistance and agronomic performance under field conditions in Senegal. International Journal of Agriculture and Biology. DOI\r\n\r\n2016\r\n\r\nDaniel Chepo Chougourou, Yedomon Ange Bovys Zoclanclounon, Christophe Homevo Agossa, Sewanoude Elvire Doris Sakiti, Alponse Agbaka. Efficacy of mixed powders of Piper guineense and Zingiber officinale as maize grain protectants against Sitophilus zeamais Motschulsky (Coleoptera: Curculionidae). International Journal of Biological and Chemical Sciences. DOI\r\n\r\n\r\nDaniel Chepo Chougourou, Christophe Homevo Agossa, Yedomon Ange Bovys Zoclanclounon, Medewouin Genice Nassara, Alphonse Agbaka. Efficacy of two plant powders as cowpea grain protectants against Callosobruchus maculatus Fabricius (Coleoptera, Chrysomelideae: Bruchinae). Journal of Applied Biosciences. DOI\r\n\r\n2015\r\n\r\nDaniel Chepo Chougourou, Yedomon Ange Bovys Zoclanclounon, Alphonse Agbaka, Abou Togola. Toxicity of two plant powders as biopesticides in the management of Callosobruchus maculatus F. (Coleoptera: Chrysomelidae, Bruchinae) on two stored grain legumes. Journal of Applied Biosciences. DOI\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-02-21T18:58:55+09:00"
     },
     {
       "path": "R.html",
       "title": "R",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-20T21:03:15+09:00"
+      "last_modified": "2021-02-21T18:58:56+09:00"
     }
   ],
   "collections": ["posts/posts.json"]

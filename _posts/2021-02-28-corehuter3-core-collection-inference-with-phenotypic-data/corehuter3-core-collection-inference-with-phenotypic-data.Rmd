@@ -1,8 +1,8 @@
 ---
-title: "Corehuter3: core collection inference with phenotypic data"
+title: "Corehunter3: core collection inference with phenotypic data"
 description: |
   Core collection inference
-preview: http://www.naro.affrc.go.jp/english/laboratory/ngrc/files/ngrc_press_20200612.img1.PNG
+preview: 
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/
@@ -15,7 +15,7 @@ output:
     self_contained: false
     toc: true
     theme: theme.css
-    name: "2021-02-28-corehuter3-core-collection-inference-with-phenotypic-data"
+    name: "2021-02-28-corehunter3-core-collection-inference-with-phenotypic-data"
 base_url: https://yedomon.netlify.app/posts/2021-02-28-corehuter3-core-collection-inference-with-phenotypic-data/
 creative_commons: CC BY
 ---

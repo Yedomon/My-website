@@ -2,7 +2,7 @@
 title: "Corehunter3: core collection inference with phenotypic data"
 description: |
   Core collection inference
-preview: 
+preview: https://scx2.b-cdn.net/gfx/news/hires/2014/3000ricegeno.jpg
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
     url: https://yedomon.netlify.app/

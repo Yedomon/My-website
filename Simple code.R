@@ -19,7 +19,6 @@ rename_post_dir("_posts/2021-01-11-extract-a-specific-set-of-sequences-from-a-mu
 rename_post_dir("_posts/2021-01-12-awk-how-to-remove-the-rest-of-a-fasta-header-name-after-a-specific-character")
 
 
-
 # Create a new post
 
 distill::create_post("awk: How to remove the rest of a fasta header name after a specific character")

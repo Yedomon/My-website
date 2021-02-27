@@ -2,6 +2,7 @@
 title: "Corehuter3 core collection inference with phenotypic data"
 description: |
   Core collection inference
+preview: https://raw.githubusercontent.com/Yedomon/R/main/core.PNG
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
   url: https://yedomon.netlify.app/

@@ -29,7 +29,7 @@ distill::create_post("Python: Find single-nucleotide polymorphism from aligned s
 distill::create_post("Genome assembly of Oryza sativa using PacBio Hifi dataset")
 
 
-distill::create_post("Corehuter3 core collection inference with phenotypic data")
+distill::create_post("Corehunter3: core collection inference with phenotypic data")
 
 
 # change my post title

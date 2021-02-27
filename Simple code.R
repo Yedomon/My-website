@@ -30,6 +30,9 @@ distill::create_post("Python: Find single-nucleotide polymorphism from aligned s
 distill::create_post("Genome assembly of Oryza sativa using PacBio Hifi dataset")
 
 
+distill::create_post("Corehuter3 core collection inference with phenotypic data")
+
+
 # change my post title
 
 rename_post_dir("_posts/2021-01-11-preprocessing-fasta-or-fastq-file-with-seqtk") 

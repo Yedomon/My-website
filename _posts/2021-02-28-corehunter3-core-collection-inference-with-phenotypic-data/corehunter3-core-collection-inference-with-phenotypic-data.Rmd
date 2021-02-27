@@ -16,7 +16,7 @@ output:
     toc: true
     theme: theme.css
     name: "2021-02-28-corehunter3-core-collection-inference-with-phenotypic-data"
-base_url: https://yedomon.netlify.app/posts/2021-02-28-corehuter3-core-collection-inference-with-phenotypic-data/
+base_url: https://yedomon.netlify.app/posts/2021-02-28-corehunter3-core-collection-inference-with-phenotypic-data/
 creative_commons: CC BY
 ---
 

@@ -1,15 +1,14 @@
 ---
-title: "Corehuter3 core collection inference with phenotypic data"
+title: "Corehuter3: core collection inference with phenotypic data"
 description: |
   Core collection inference
 preview: https://raw.githubusercontent.com/Yedomon/R/main/core.PNG
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
-  url: https://yedomon.netlify.app/
+    url: https://yedomon.netlify.app/
     affiliation: Jeonbuk National University
     affiliation_url: http://www.jbnu.ac.kr/eng/
     orcid_id: 0000-0003-2781-0778
-    url: https://yedomon.netlify.app/
 date: 02-28-2021
 output:
   distill::distill_article:
@@ -17,7 +16,7 @@ output:
     toc: true
     theme: theme.css
     name: "2021-02-28-corehuter3-core-collection-inference-with-phenotypic-data"
-base_url: https://yedomon.netlify.app/posts/2021-02-28-corehuter3-core-collection-inference-with-phenotypic-data/
+    base_url: https://yedomon.netlify.app/posts/2021-02-28-corehuter3-core-collection-inference-with-phenotypic-data/
 creative_commons: CC BY
 ---
 

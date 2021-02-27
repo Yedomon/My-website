@@ -2389,10 +2389,14 @@ d-appendix d-footnote-list a.footnote-backlink {
 
 <div class="d-article">
 <h3 id="brainstorming">Brainstorming</h3>
-<p>During my adventure here in South Korea I was instructed to infer a core collection from a large phenotyping trials data set. After goggling I found an interesting paper from <a href="https://www.nature.com/articles/s41598-020-76103-4">Tchokponhoué et al. (2020)</a>. The authors used corehunter3 package under R environment. So I decide to test it. First of all, let’s intall the package.</p>
+<p style="text-align:justify;">
+During my adventure here in South Korea I was instructed to infer a core collection from a large phenotyping trials data set. After goggling I found an interesting paper from <a href="https://www.nature.com/articles/s41598-020-76103-4">Tchokponhoué et al. (2020)</a>. The authors used corehunter3 package under R environment. So I decide to test it. First of all, let’s intall the package.
+</p>
 <h3 id="installation">Installation</h3>
 <p>Step 1: Install java version 8 or more</p>
-<p>Make sure to install Java Oracle JDK version 8 or more. I used a window OS. The CRAN github page recommended to download the java <a href="https://www.oracle.com/java/technologies/javase-jdk15-downloads.html">here</a>. I download the Oracle Java JDK installer and installed.</p>
+<p style="text-align:justify;">
+Make sure to install Java Oracle JDK version 8 or more. I used a window OS. The CRAN github page recommended to download the java <a href="https://www.oracle.com/java/technologies/javase-jdk15-downloads.html">here</a>. I download the Oracle Java JDK installer and installed.
+</p>
 <p>Step2: Install rJava and corehunter</p>
 <p>To install rJava and corehunter, do:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a></span>
@@ -2407,7 +2411,9 @@ d-appendix d-footnote-list a.footnote-backlink {
 <span id="cb2-4"><a href="#cb2-4"></a>library(corehunter)</span>
 <span id="cb2-5"><a href="#cb2-5"></a></span></code></pre></div>
 <p>Step3: Prepare the phenotype data set</p>
-<p><strong>Corehunter</strong> need a specific data format. The details of the specifications are well explained <a href="http://www.corehunter.org/data">here</a>.</p>
+<p style="text-align:justify;">
+<strong>Corehunter</strong> need a specific data format. The details of the specifications are well explained <a href="http://www.corehunter.org/data">here</a>.
+</p>
 <p>The data that I will use in this tutorial look like this:</p>
 <table>
 <colgroup>
@@ -3130,8 +3136,11 @@ d-appendix d-footnote-list a.footnote-backlink {
 </tbody>
 </table>
 <blockquote>
-<p>Real phenotypic trait data including 39 accessions for which seven quantitative and seven qualitative traits were recorded. Here, quantitative traits are ratio variables (R) encoded as double values (default for ratio variables) while qualitative traits are integer valued nominal variables (NI).</p>
+<p style="text-align:justify;">
+Real phenotypic trait data including 39 accessions for which seven quantitative and seven qualitative traits were recorded. Here, quantitative traits are ratio variables (R) encoded as double values (default for ratio variables) while qualitative traits are integer valued nominal variables (NI).
+</p>
 </blockquote>
+<h3 id="solution">Solution</h3>
 <p>Let’s import this data in Rstudio</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a></span>
 <span id="cb3-2"><a href="#cb3-2"></a>data_pheno <span class="op">=</span> read.csv(<span class="st">&quot;phenotypic_data.csv&quot;</span>, h <span class="op">=</span> T, sep <span class="op">=</span> <span class="st">&quot;;&quot;</span>)</span>
@@ -3159,7 +3168,9 @@ d-appendix d-footnote-list a.footnote-backlink {
 <span id="cb7-11"><a href="#cb7-11"></a>[<span class="dv">1</span>] <span class="st">&quot;chcore&quot;</span> <span class="st">&quot;list&quot;</span></span>
 <span id="cb7-12"><a href="#cb7-12"></a></span></code></pre></div>
 <p>The accession <code>"1"  "12" "18" "23" "24" "32" "34" "37"</code> are the core collection inferred by <strong>corehunter</strong></p>
-<p>That’s it! The key point in this process is to properly arrange the data following the instructions well defined <a href="http://www.corehunter.org/data">here</a>.</p>
+<p style="text-align:justify;">
+That’s it! The key point in this process is to properly arrange the data following the instructions well defined <a href="http://www.corehunter.org/data">here</a>.
+</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">

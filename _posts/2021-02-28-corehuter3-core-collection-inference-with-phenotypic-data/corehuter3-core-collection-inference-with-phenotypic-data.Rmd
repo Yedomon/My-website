@@ -1,14 +1,23 @@
 ---
 title: "Corehuter3 core collection inference with phenotypic data"
 description: |
-  A short description of the post.
+  Core collection inference
 author:
   - name: Yedomon Ange Bovys Zoclanclounon
+  url: https://yedomon.netlify.app/
+    affiliation: Jeonbuk National University
+    affiliation_url: http://www.jbnu.ac.kr/eng/
+    orcid_id: 0000-0003-2781-0778
     url: https://yedomon.netlify.app/
 date: 02-28-2021
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    theme: theme.css
+    name: "2021-02-28-corehuter3-core-collection-inference-with-phenotypic-data"
+base_url: https://yedomon.netlify.app/posts/2021-02-28-corehuter3-core-collection-inference-with-phenotypic-data/
+creative_commons: CC BY
 ---
 
 
@@ -19,14 +28,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Brainstorming
 
-During my adventure here in South Korea I was instructed to infer a core collection from a large phenotyping trials data set. After goggling I found an interesting paper from  [Tchokponhoué et al. (2020)](https://www.nature.com/articles/s41598-020-76103-4). The authors used corehunter3 package under R environment. So I decide to test it. First of all, let's intall the package. 
+<p style="text-align:justify;">During my adventure here in South Korea I was instructed to infer a core collection from a large phenotyping trials data set. After goggling I found an interesting paper from  [Tchokponhoué et al. (2020)](https://www.nature.com/articles/s41598-020-76103-4). The authors used corehunter3 package under R environment. So I decide to test it. First of all, let's intall the package.</p> 
 
 
 ### Installation
 
 Step 1: Install java version 8 or more
 
-Make sure to install Java Oracle JDK version 8 or more. I used a window OS. The CRAN github page recommended to download the java [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html). I download the Oracle Java JDK installer and installed.
+<p style="text-align:justify;">Make sure to install Java Oracle JDK version 8 or more. I used a window OS. The CRAN github page recommended to download the java [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html). I download the Oracle Java JDK installer and installed.</p>
 
 Step2: Install rJava and corehunter
 
@@ -59,7 +68,7 @@ Step3: Prepare the phenotype data set
 
 
 
-**Corehunter** need  a specific data format. The details of the specifications are well explained [here](http://www.corehunter.org/data). 
+<p style="text-align:justify;">**Corehunter** need  a specific data format. The details of the specifications are well explained [here](http://www.corehunter.org/data). </p>
 
 The data that I will use in this tutorial look like this:
 
@@ -109,7 +118,10 @@ The data that I will use in this tutorial look like this:
 
 
 
-> Real phenotypic trait data including 39 accessions for which seven quantitative and seven qualitative traits were recorded. Here, quantitative traits are ratio variables (R) encoded as double values (default for ratio variables) while qualitative traits are integer valued nominal variables (NI).
+> <p style="text-align:justify;">Real phenotypic trait data including 39 accessions for which seven quantitative and seven qualitative traits were recorded. Here, quantitative traits are ratio variables (R) encoded as double values (default for ratio variables) while qualitative traits are integer valued nominal variables (NI).</p>
+
+
+### Solution
 
 Let's import this data in Rstudio
 
@@ -180,4 +192,4 @@ The accession `"1"  "12" "18" "23" "24" "32" "34" "37"` are the core collection 
 
 
 
-That's it! The key point in this process is to properly arrange the data following the instructions well defined [here](http://www.corehunter.org/data).
+<p style="text-align:justify;">That's it! The key point in this process is to properly arrange the data following the instructions well defined [here](http://www.corehunter.org/data). </p>
